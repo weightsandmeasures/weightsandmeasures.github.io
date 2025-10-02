@@ -1,0 +1,748 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="stylesheet" href="/_next/static/css/58e13d627443c1d2.css" data-precedence="next"/><link rel="preload" as="script" fetchPriority="low" href="/_next/static/chunks/webpack-04a79b13a5a8dd85.js"/><script src="/_next/static/chunks/1dd3208c-22bf6aef9e09991c.js" async=""></script><script src="/_next/static/chunks/528-cc2d9f66ad1e36b1.js" async=""></script><script src="/_next/static/chunks/main-app-1417d80ca8dea9f8.js" async=""></script><script src="/_next/static/chunks/340-0ff0707594e8b932.js" async=""></script><script src="/_next/static/chunks/app/courses/weighing-fundamentals/%5BmoduleSlug%5D/%5BlessonSlug%5D/page-0056ff64669a8156.js" async=""></script><script src="/_next/static/chunks/app/layout-ebc40e1b7cb925e1.js" async=""></script><title>Weighing Systems Knowledge Base</title><meta name="description" content="Comprehensive resource on weighing technology, regulations, and measurement systems"/><link rel="icon" href="/favicon.ico" type="image/x-icon" sizes="16x16"/><script src="/_next/static/chunks/polyfills-42372ed130431b0a.js" noModule=""></script></head><body class="antialiased flex flex-col min-h-screen"><header class="sticky top-0 z-50 w-full border-b border-slate-200 dark:border-slate-800 bg-white/95 dark:bg-slate-900/95 backdrop-blur supports-[backdrop-filter]:bg-white/60"><nav class="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global"><div class="flex lg:flex-1"><a class="-m-1.5 p-1.5" href="/"><span class="text-2xl font-bold text-primary-600">Weighing Systems</span></a></div><div class="flex lg:hidden"><button type="button" class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-slate-700 dark:text-slate-200"><span class="sr-only">Toggle menu</span><svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"></path></svg></button></div><div class="hidden lg:flex lg:gap-x-12"><a class="text-sm font-semibold leading-6 text-slate-900 dark:text-slate-100 hover:text-primary-600 dark:hover:text-primary-500 no-underline" href="/courses">Courses</a><a class="text-sm font-semibold leading-6 text-slate-900 dark:text-slate-100 hover:text-primary-600 dark:hover:text-primary-500 no-underline" href="/projects">Projects</a><a class="text-sm font-semibold leading-6 text-slate-900 dark:text-slate-100 hover:text-primary-600 dark:hover:text-primary-500 no-underline" href="/tools">Tools</a><a class="text-sm font-semibold leading-6 text-slate-900 dark:text-slate-100 hover:text-primary-600 dark:hover:text-primary-500 no-underline" href="/downloads">Downloads</a><a class="text-sm font-semibold leading-6 text-slate-900 dark:text-slate-100 hover:text-primary-600 dark:hover:text-primary-500 no-underline" href="/blog">Blog</a><a class="text-sm font-semibold leading-6 text-slate-900 dark:text-slate-100 hover:text-primary-600 dark:hover:text-primary-500 no-underline" href="/documentation">Docs</a></div></nav></header><main class="flex-grow"><div class="w-full"><div class="bg-slate-50 dark:bg-slate-900/50 border-b border-slate-200 dark:border-slate-800"><div class="mx-auto max-w-4xl px-6 lg:px-8 py-4"><nav class="flex items-center gap-2 text-sm"><a class="text-slate-600 dark:text-slate-400 hover:text-primary-600 dark:hover:text-primary-400 no-underline" href="/courses">Courses</a><span class="text-slate-400">/</span><a class="text-slate-600 dark:text-slate-400 hover:text-primary-600 dark:hover:text-primary-400 no-underline" href="/courses/weighing-fundamentals">Weighing Systems Fundamentals</a><span class="text-slate-400">/</span><span class="text-slate-900 dark:text-white">Physical Tampering</span></nav></div></div><div class="mx-auto max-w-4xl px-6 lg:px-8 py-12"><div class="mb-8"><div class="flex items-center gap-2 text-sm text-slate-600 dark:text-slate-400 mb-2"><svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 016-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0018 18a8.967 8.967 0 00-6 2.292m0-14.25v14.25"></path></svg><span>Security</span></div><h1 class="text-4xl font-bold text-slate-900 dark:text-white">Physical Tampering</h1></div><div class="prose prose-slate dark:prose-invert max-w-none"><h1>Physical Tampering Methods and Vulnerabilities</h1>
+<h2>Introduction to Weighing Scale Fraud</h2>
+<p>Weighing scale fraud represents a significant economic threat in commercial transactions. Understanding common tampering methods is essential for developing effective countermeasures and protecting business interests.</p>
+<p>This chapter documents known tampering techniques based on documented industry cases and security research. <strong>This information is provided for educational and defensive purposes only.</strong></p>
+<h2>Common Tampering Categories</h2>
+<p>Weighing scale tampering generally falls into four main categories:</p>
+<ol>
+<li><strong>Load Cell Manipulation</strong></li>
+<li><strong>Display and Indicator Tampering</strong></li>
+<li><strong>Mechanical Modifications</strong></li>
+<li><strong>Weighbridge-Specific Fraud</strong></li>
+</ol>
+<h2>1. Load Cell Tampering</h2>
+<p>Load cells are often targeted because they are the primary sensing element in modern weighing systems.</p>
+<h3>Methods</h3>
+<h4>A. Load Cell Shunting</h4>
+<p><strong>Technique</strong>:</p>
+<ul>
+<li>Adding resistors in parallel with strain gauge circuits</li>
+<li>Alters the electrical resistance to change weight readings</li>
+<li>Can reduce displayed weight while maintaining appearance of normal operation</li>
+</ul>
+<p><strong>Detection Challenges</strong>:</p>
+<ul>
+<li>Can be intermittent (activated only when needed)</li>
+<li>May appear as legitimate signal variations</li>
+<li>Requires detailed electrical inspection to discover</li>
+</ul>
+<p><strong>Indicators</strong>:</p>
+<ul>
+<li>Inconsistent weight readings</li>
+<li>Load cell resistance measurements outside specifications</li>
+<li>Unusual wiring or components near load cells</li>
+<li>Broken or tampered junction box seals</li>
+</ul>
+<h4>B. Signal Line Interception</h4>
+<p><strong>Technique</strong>:</p>
+<ul>
+<li>Intercepting wires between load cells and indicator</li>
+<li>Installing devices to modify signals</li>
+<li>May involve remote control activation</li>
+</ul>
+<p><strong>Common Implementation</strong>:</p>
+<ul>
+<li>Small electronic modules spliced into cables</li>
+<li>Wireless receivers activated by remote control</li>
+<li>Hidden in junction boxes or cable runs</li>
+</ul>
+<p><strong>Detection</strong>:</p>
+<ul>
+<li>Cable routing inspection</li>
+<li>Checking for unauthorized splices</li>
+<li>Resistance and continuity testing</li>
+<li>Signal quality analysis</li>
+</ul>
+<h4>C. Load Cell Replacement</h4>
+<p><strong>Technique</strong>:</p>
+<ul>
+<li>Replacing legitimate load cells with modified units</li>
+<li>Modified cells may have altered strain gauge values</li>
+<li>Can be programmed to under-report weight</li>
+</ul>
+<p><strong>Detection</strong>:</p>
+<ul>
+<li>Serial number verification</li>
+<li>Load cell specifications check</li>
+<li>Comparison with manufacturer records</li>
+<li>Unexpected variation in cell outputs</li>
+</ul>
+<h4>D. Mechanical Loading</h4>
+<p><strong>Technique</strong>:</p>
+<ul>
+<li>Adding hidden supports under weighing platform</li>
+<li>Reduces actual load on load cells</li>
+<li>Can be mechanical jacks, spacers, or wedges</li>
+</ul>
+<p><strong>Detection</strong>:</p>
+<ul>
+<li>Physical inspection under platform</li>
+<li>Checking for binding or obstructions</li>
+<li>Uneven load cell loading patterns</li>
+<li>Platform deflection measurements</li>
+</ul>
+<h2>2. Display and Indicator Tampering</h2>
+<p>The weighing indicator or display can be manipulated to show incorrect weights.</p>
+<h3>Methods</h3>
+<h4>A. Remote Control Devices</h4>
+<p><strong>Technique</strong>:</p>
+<ul>
+<li>Installing devices that allow operator to control weight display</li>
+<li>Can be purchased online and installed covertly</li>
+<li>Activated via remote from driver&#x27;s cab or nearby location</li>
+</ul>
+<p><strong>How It Works</strong>:</p>
+<ul>
+<li>Device intercepts signal between load cells and display</li>
+<li>Operator can add or subtract weight with remote</li>
+<li>May have preset amounts or continuous adjustment</li>
+</ul>
+<p><strong>Warning Signs</strong>:</p>
+<ul>
+<li>Unusual electronic devices near indicator</li>
+<li>Unexplained weight variations</li>
+<li>Consistent discrepancies in one direction</li>
+<li>Weights that change when operator moves</li>
+</ul>
+<p><strong>Detection</strong>:</p>
+<ul>
+<li>Thorough inspection of indicator enclosure</li>
+<li>Check for unauthorized circuit boards or modules</li>
+<li>RF signal detection (if wireless remote used)</li>
+<li>Test weighing with operator at different locations</li>
+</ul>
+<h4>B. Display Module Replacement</h4>
+<p><strong>Technique</strong>:</p>
+<ul>
+<li>Replacing legitimate display with tampered unit</li>
+<li>Modified firmware or hardware to show false weights</li>
+<li>May look identical to original equipment</li>
+</ul>
+<p><strong>Detection</strong>:</p>
+<ul>
+<li>Serial number verification</li>
+<li>Firmware version checking</li>
+<li>Factory calibration data comparison</li>
+<li>Return to zero test</li>
+</ul>
+<h4>C. Software Modification</h4>
+<p><strong>Technique</strong>:</p>
+<ul>
+<li>Altering calibration settings</li>
+<li>Modifying weight calculation algorithms</li>
+<li>Installing modified firmware with backdoors</li>
+</ul>
+<p><strong>Detection Difficulty</strong>:</p>
+<ul>
+<li>Can be very sophisticated</li>
+<li>May require forensic analysis</li>
+<li>Often leaves no physical evidence</li>
+</ul>
+<p><strong>Countermeasures</strong>:</p>
+<ul>
+<li>Firmware integrity checking</li>
+<li>Digital signatures on software</li>
+<li>Secure boot processes</li>
+<li>Audit logging</li>
+</ul>
+<h4>D. Calibration Mode Access</h4>
+<p><strong>Technique</strong>:</p>
+<ul>
+<li>Unauthorized access to calibration mode to alter weight readings</li>
+<li>Requires opening sealed enclosure to access calibration switch/jumper</li>
+<li>May involve breaking verification seals</li>
+</ul>
+<p><strong>What is Required for Legitimate Calibration</strong>:</p>
+<ul>
+<li>Physical access to indicator enclosure (requires breaking seal)</li>
+<li>Enabling calibration jumper or switch on main board</li>
+<li>Password or key sequence to enter calibration menu (on some models)</li>
+<li>Knowledge of calibration procedure</li>
+<li>Authorized technician credentials</li>
+</ul>
+<p><strong>Detection</strong>:</p>
+<ul>
+<li>Broken or tampered verification seals</li>
+<li>CAL counter incremented beyond official records</li>
+<li>Audit trail showing calibration access</li>
+<li>Enclosure showing signs of opening</li>
+<li>Unauthorized personnel in possession of calibration passwords</li>
+</ul>
+<p><strong>Regulatory Response</strong>:</p>
+<ul>
+<li>Breaking seal without authority = tampering (even if settings unchanged)</li>
+<li>Requires complete re-verification by weights &amp; measures authority</li>
+<li>May result in equipment confiscation and penalties</li>
+<li>New seal applied only after official verification</li>
+</ul>
+<h2>3. Verification Seal and Calibration Protection</h2>
+<p>Modern weighing instruments include critical security features to prevent unauthorized modification.</p>
+<h3>The Calibration Switch and Jumper System</h3>
+<p><strong>What It Is</strong>:</p>
+<ul>
+<li>A physical switch or jumper on the main circuit board</li>
+<li>Prevents unauthorized access to calibration and configuration parameters</li>
+<li>Required by OIML R76 for legal-for-trade instruments</li>
+<li>Often called the &quot;calibration enable jumper&quot; or &quot;seal switch&quot;</li>
+</ul>
+<p><strong>How It Works</strong>:</p>
+<ul>
+<li>With jumper <strong>removed</strong> (or switch in LOCK position): All calibration settings are locked</li>
+<li>With jumper <strong>installed</strong> (or switch in UNLOCK position): Calibration mode can be accessed via software</li>
+<li>Accessing calibration requires both physical access (opening enclosure) and knowledge of procedure</li>
+<li>Some instruments increment a CAL counter each time calibration mode is entered</li>
+</ul>
+<p><strong>Security Requirement</strong>:</p>
+<ul>
+<li>The enclosure housing the calibration switch <strong>must be sealed</strong> with tamper-evident seal</li>
+<li>Breaking the seal to access the jumper constitutes tampering</li>
+<li>Any legitimate calibration requires breaking seal, then re-verification and re-sealing by authorized personnel</li>
+</ul>
+<h3>Verification Seals and Tamper-Evident Labels</h3>
+<p><strong>Terminal/Junction Box Sealing</strong>:</p>
+<ul>
+<li>All weighing instruments have a <strong>junction box</strong> or <strong>terminal box</strong> where load cell cables connect to the indicator</li>
+<li>This box <strong>must be sealed</strong> with official verification seal after initial calibration</li>
+<li>IP66 or higher rating required to prevent moisture/environmental damage</li>
+<li>All unused cable entries must be sealed per EN-60079-10</li>
+</ul>
+<p><strong>Types of Tamper-Evident Seals</strong>:</p>
+<ol>
+<li>
+<p><strong>Wire and Lead Seals</strong></p>
+<ul>
+<li>Traditional method using wire threaded through fasteners</li>
+<li>Embossed with verification authority mark</li>
+<li>Must be destroyed to open enclosure</li>
+</ul>
+</li>
+<li>
+<p><strong>Security Labels/Stickers</strong></p>
+<ul>
+<li>Manufactured in matt silver polyester with special adhesive</li>
+<li>Separates on attempted removal, leaving visible &quot;VOID&quot; pattern</li>
+<li>Cannot be reapplied or transferred to non-approved equipment</li>
+<li>Often includes serial number or QR code for tracking</li>
+</ul>
+</li>
+<li>
+<p><strong>Verification Stamps</strong></p>
+<ul>
+<li>Official stamp from weights &amp; measures authority (e.g., KEBS in Kenya)</li>
+<li>Applied after successful verification</li>
+<li>Includes date, authority mark, and validity period</li>
+<li>Must be renewed annually in most jurisdictions</li>
+</ul>
+</li>
+</ol>
+<p><strong>Seal Locations</strong>:</p>
+<ul>
+<li>Indicator/display enclosure (covering calibration switch)</li>
+<li>Junction box or terminal box (protecting load cell connections)</li>
+<li>Load cell mounting points (on some installations)</li>
+<li>External adjustment cavities (for mechanical components)</li>
+</ul>
+<p><strong>What Constitutes Tampering</strong>:</p>
+<ul>
+<li>Breaking or removing verification seals without authorization</li>
+<li>Opening sealed enclosures</li>
+<li>Accessing calibration mode (even without changing settings)</li>
+<li>Replacing sealed components</li>
+<li>Any modification to legally relevant parameters</li>
+</ul>
+<h3>Software Sealing and Audit Trails</h3>
+<p><strong>Modern Electronic Protection</strong>:</p>
+<p>For instruments using software-based security instead of (or in addition to) physical jumpers:</p>
+<p><strong>CAL and CONFIG Counters</strong>:</p>
+<ul>
+<li>Two non-editable counters track modifications</li>
+<li><strong>CAL counter</strong>: Incremented each time calibration parameters are modified</li>
+<li><strong>CONFIG counter</strong>: Incremented when legally relevant parameters change</li>
+<li>Access is password-protected</li>
+<li>Counter values must be written on tamper-evident label near rating plate</li>
+</ul>
+<p><strong>Audit Trail Requirements</strong> (OIML D31):</p>
+<ul>
+<li>Every access to calibration mode must be logged</li>
+<li>Records include: timestamp, parameter changed, old value, new value</li>
+<li>Audit log must be non-editable and tamper-proof</li>
+<li>Some modern scales can export audit logs to PDF, XLS, CSV, HTML formats</li>
+</ul>
+<p><strong>Power Cycling Detection</strong>:</p>
+<ul>
+<li>Modern instruments log all power-on/power-off events</li>
+<li>Unexpected power cycles may indicate tampering attempt</li>
+<li>Some systems alert if powered on outside normal operating hours</li>
+<li>Logs retained even after power loss (non-volatile memory)</li>
+</ul>
+<h3>Movement and Position Tampering</h3>
+<p><strong>For Portable Scales</strong>:</p>
+<p><strong>The Problem</strong>:</p>
+<ul>
+<li>Moving a calibrated scale can affect accuracy</li>
+<li>Gravity varies by location (altitude and latitude)</li>
+<li>Tilt or uneven placement affects load cell readings</li>
+<li>Switching scale off/on in different location may indicate relocation</li>
+</ul>
+<p><strong>Movement Detection Technologies</strong>:</p>
+<ol>
+<li>
+<p><strong>Accelerometers and Tilt Sensors</strong></p>
+<ul>
+<li>3-axis accelerometer detects movement and tilt angle</li>
+<li>Measures X, Y, Z axis inclination</li>
+<li>Can detect if scale has been moved or repositioned</li>
+<li>Threshold alerts when tilt exceeds acceptable range (typically ±0.5°)</li>
+</ul>
+</li>
+<li>
+<p><strong>Tamper Event Logging</strong>:</p>
+<ul>
+<li>Accelerometer positioned in scale enclosure detects relative movement</li>
+<li>Once movement exceeds predetermined threshold, system logs tamper event</li>
+<li>Some systems transmit wireless notification via LoRaWAN or cellular</li>
+<li>Can distinguish between normal vibration and deliberate movement</li>
+</ul>
+</li>
+<li>
+<p><strong>Geographic Position Tracking</strong>:</p>
+<ul>
+<li>GPS modules in some high-value scales</li>
+<li>Logs latitude/longitude during calibration</li>
+<li>Alerts if scale moved &gt;100m from calibration location</li>
+<li>Useful for rental scales or mobile weighbridges</li>
+</ul>
+</li>
+</ol>
+<p><strong>Response to Movement Detection</strong>:</p>
+<ul>
+<li>Scale may lock out and require re-verification</li>
+<li>Warning message displayed to operator</li>
+<li>Logged event for inspection by authorities</li>
+<li>Some scales adjust automatically for local gravity (with authority approval)</li>
+</ul>
+<p><strong>Power Cycling as Tampering Indicator</strong>:</p>
+<p>When scale is switched off and back on:</p>
+<ul>
+<li>Location may have changed</li>
+<li>Configuration may have been altered during downtime</li>
+<li>Logs should record: time powered off, duration, time powered on</li>
+<li>Unusual power patterns (e.g., multiple cycles in short period) raise suspicion</li>
+</ul>
+<h3>Regulatory Definitions of Tampering</h3>
+<p><strong>Kenya Weights and Measures Act (Cap 513)</strong>:</p>
+<p>Tampering includes:</p>
+<ul>
+<li><strong>Breaking verification seals</strong> without authorization from KEBS</li>
+<li><strong>Tampering with calibration knobs</strong> (mechanical adjustments)</li>
+<li><strong>Using magnets</strong> to tamper with scale accuracy</li>
+<li><strong>Using heavier plates</strong> on weighing platform to increase apparent weight</li>
+<li><strong>Tying weights to scale</strong> mechanism to dupe buyers</li>
+<li><strong>Setting higher prices</strong> on digital scales to inflate cost</li>
+<li>Any <strong>unauthorized modification</strong> affecting weight indication</li>
+</ul>
+<p><strong>Penalties under Kenyan Law</strong>:</p>
+<ul>
+<li>Fine up to <strong>KES 20,000</strong> (approximately USD 150)</li>
+<li><strong>Imprisonment up to 3 years</strong>, or both</li>
+<li><strong>Equipment confiscation</strong></li>
+<li><strong>Business closure</strong> orders</li>
+<li>Prevention from continuing to deal in goods related to offense</li>
+</ul>
+<p><strong>OIML International Standards</strong>:</p>
+<p>Tampering or unauthorized adjustment:</p>
+<ul>
+<li>Accessing legally relevant parameters without authority</li>
+<li>Breaking official seals</li>
+<li>Modifying firmware or software</li>
+<li>Replacing components affecting measurement</li>
+<li>Any action invalidating verification status</li>
+</ul>
+<p><strong>Required Actions After Seal Breaking</strong>:</p>
+<p>Even for <strong>legitimate maintenance</strong>:</p>
+<ol>
+<li>Seal must be broken by authorized technician</li>
+<li>Maintenance/repair performed</li>
+<li><strong>Complete re-verification</strong> by legal metrology authority</li>
+<li>New verification stamp/seal applied</li>
+<li>Event recorded in audit trail and Scale Record Log</li>
+<li>Documentation updated with new seal number and date</li>
+</ol>
+<p><strong>Unauthorized Access Detection</strong>:</p>
+<p>Inspectors check for:</p>
+<ul>
+<li>Broken or missing seals</li>
+<li>Seals that don&#x27;t match official records</li>
+<li>Tamper-evident labels showing &quot;VOID&quot; pattern</li>
+<li>Audit trail showing unauthorized calibration access</li>
+<li>CAL/CONFIG counters higher than official records</li>
+<li>Equipment modifications not documented</li>
+<li>Movement detection alerts</li>
+<li>Unusual power cycling patterns</li>
+</ul>
+<h2>4. Mechanical Modifications</h2>
+<p>Physical alterations to the weighing mechanism.</p>
+<h3>Methods</h3>
+<h4>A. Hidden Weights</h4>
+<p><strong>Technique</strong>:</p>
+<ul>
+<li>Concealing weights within platform structure</li>
+<li>Adds apparent weight to goods being sold</li>
+<li>Can be removable for inspections</li>
+</ul>
+<p><strong>Typical Locations</strong>:</p>
+<ul>
+<li>Inside hollow platform frame</li>
+<li>Under platform deck</li>
+<li>Within enclosures or covers</li>
+</ul>
+<p><strong>Detection</strong>:</p>
+<ul>
+<li>Physical inspection of platform</li>
+<li>Weight consistency checks</li>
+<li>Comparing platform weight to specifications</li>
+<li>X-ray or ultrasonic inspection</li>
+</ul>
+<h4>B. Lever Mechanism Modification</h4>
+<p><strong>Technique</strong> (for mechanical scales):</p>
+<ul>
+<li>Adjusting lever ratios or pivot points</li>
+<li>Alters mechanical advantage</li>
+<li>Changes weight multiplication factor</li>
+</ul>
+<p><strong>Detection</strong>:</p>
+<ul>
+<li>Mechanical inspection of linkages</li>
+<li>Verification of lever ratios</li>
+<li>Seal inspection on adjustments</li>
+<li>Test weighing with known weights</li>
+</ul>
+<h4>C. Platform Position Manipulation</h4>
+<p><strong>Technique</strong>:</p>
+<ul>
+<li>Deliberately positioning vehicle incorrectly on weighbridge</li>
+<li>Leaving rear axles off platform</li>
+<li>Partial weighing to reduce total</li>
+</ul>
+<p><strong>Execution</strong>:</p>
+<ul>
+<li>Works best at unattended or poorly supervised sites</li>
+<li>May involve collusion with weighbridge operator</li>
+<li>Can be very difficult to detect without cameras</li>
+</ul>
+<p><strong>Prevention</strong>:</p>
+<ul>
+<li>Traffic control systems (lights, barriers)</li>
+<li>Video surveillance</li>
+<li>Automated vehicle detection</li>
+<li>Operator training and supervision</li>
+<li>Physical barriers to ensure complete positioning</li>
+</ul>
+<h2>4. Weighbridge-Specific Fraud</h2>
+<p>Techniques unique to large-scale weighing systems.</p>
+<h3>Methods</h3>
+<h4>A. Foundation Manipulation</h4>
+<p><strong>Technique</strong>:</p>
+<ul>
+<li>Digging under weighbridge platform</li>
+<li>Adding additional support points</li>
+<li>Reduces load on official load cells</li>
+</ul>
+<p><strong>Execution</strong>:</p>
+<ul>
+<li>Requires access beneath platform (pit-type vulnerable)</li>
+<li>Done during off-hours</li>
+<li>Can be very effective if undetected</li>
+</ul>
+<p><strong>Detection</strong>:</p>
+<ul>
+<li>Regular physical inspections</li>
+<li>Looking for disturbed soil or foundations</li>
+<li>Load cell output comparison</li>
+<li>Structural surveys</li>
+</ul>
+<p><strong>Prevention</strong>:</p>
+<ul>
+<li>Secure pit access</li>
+<li>Surveillance of weighbridge area</li>
+<li>Regular maintenance inspections</li>
+<li>Concrete barriers or sealed pits</li>
+</ul>
+<h4>B. Software and Database Manipulation</h4>
+<p><strong>Technique</strong>:</p>
+<ul>
+<li>Altering weight records in database</li>
+<li>Modifying transaction logs</li>
+<li>Changing stored tare weights</li>
+</ul>
+<p><strong>Methods</strong>:</p>
+<ul>
+<li>Unauthorized database access</li>
+<li>Insider collusion (operator or IT staff)</li>
+<li>Hacking weighbridge software</li>
+<li>Ticket reprinting with altered weights</li>
+</ul>
+<p><strong>Detection</strong>:</p>
+<ul>
+<li>Audit trail analysis</li>
+<li>Database integrity checks</li>
+<li>Comparing physical tickets to digital records</li>
+<li>Statistical analysis of weight patterns</li>
+</ul>
+<p><strong>Prevention</strong>:</p>
+<ul>
+<li>Access controls and authentication</li>
+<li>Database encryption</li>
+<li>Automated backups</li>
+<li>Audit logging</li>
+<li>Separation of duties</li>
+</ul>
+<h4>C. Operator Collusion Schemes</h4>
+<p><strong>Technique</strong>:</p>
+<ul>
+<li>Driver and scale operator work together</li>
+<li>Operator manually alters weight reading</li>
+<li>Driver receives cut of proceeds</li>
+</ul>
+<p><strong>Common Scenarios</strong>:</p>
+<ul>
+<li>Reducing outbound weight (buyer fraud)</li>
+<li>Increasing inbound weight (seller fraud)</li>
+<li>Waiving weighing fees for kickbacks</li>
+<li>Providing false documentation</li>
+</ul>
+<p><strong>Detection</strong>:</p>
+<ul>
+<li>Random transaction audits</li>
+<li>Video surveillance of operations</li>
+<li>Comparing weights to vehicle capacities</li>
+<li>Statistical pattern analysis</li>
+<li>Whistleblower reports</li>
+</ul>
+<p><strong>Prevention</strong>:</p>
+<ul>
+<li>Automated weighing systems</li>
+<li>Supervisor oversight</li>
+<li>Rotation of operators</li>
+<li>Background checks</li>
+<li>Strong ethics policies</li>
+<li>Anonymous reporting mechanisms</li>
+</ul>
+<h2>Detection Technologies</h2>
+<h3>Electronic Monitoring</h3>
+<p><strong>Methods</strong>:</p>
+<ul>
+<li>Signal integrity monitoring</li>
+<li>Voltage and current sensors</li>
+<li>Communication line encryption</li>
+<li>Anomaly detection algorithms</li>
+</ul>
+<p><strong>Capabilities</strong>:</p>
+<ul>
+<li>Real-time fraud detection</li>
+<li>Alert generation</li>
+<li>Event logging</li>
+<li>Remote monitoring</li>
+</ul>
+<h3>Physical Security</h3>
+<p><strong>Measures</strong>:</p>
+<ul>
+<li>Tamper-evident seals</li>
+<li>Locked enclosures with security fasteners</li>
+<li>Video surveillance</li>
+<li>Access control systems</li>
+</ul>
+<p><strong>Benefits</strong>:</p>
+<ul>
+<li>Deters casual tampering</li>
+<li>Provides evidence of attempts</li>
+<li>Enables investigation</li>
+</ul>
+<h3>Statistical Analysis</h3>
+<p><strong>Approach</strong>:</p>
+<ul>
+<li>Analyzing patterns in weight data</li>
+<li>Identifying unusual trends</li>
+<li>Comparing to expected distributions</li>
+<li>Detecting systematic bias</li>
+</ul>
+<p><strong>Indicators</strong>:</p>
+<ul>
+<li>Weights consistently biased in one direction</li>
+<li>Unusual clustering of values</li>
+<li>Changes after specific operators&#x27; shifts</li>
+<li>Discrepancies with inventory levels</li>
+</ul>
+<h2>Industry Vulnerable Points</h2>
+<h3>High-Risk Situations</h3>
+<ol>
+<li>
+<p><strong>Unattended Facilities</strong></p>
+<ul>
+<li>No supervision during weighing</li>
+<li>Opportunity for position manipulation</li>
+<li>Remote control device use</li>
+</ul>
+</li>
+<li>
+<p><strong>Minimal Oversight</strong></p>
+<ul>
+<li>Inadequate supervision</li>
+<li>Lack of cross-checking</li>
+<li>Poor operator training</li>
+</ul>
+</li>
+<li>
+<p><strong>High-Value Commodities</strong></p>
+<ul>
+<li>Precious metals</li>
+<li>Scrap metal and recyclables</li>
+<li>Grain and agricultural products</li>
+<li>Waste and recycling materials</li>
+</ul>
+</li>
+<li>
+<p><strong>Complex Supply Chains</strong></p>
+<ul>
+<li>Multiple weighing points</li>
+<li>Opportunities for collusion</li>
+<li>Difficult to cross-verify</li>
+</ul>
+</li>
+</ol>
+<h3>Cost of Fraud</h3>
+<p>Weighing fraud can cost businesses:</p>
+<ul>
+<li><strong>Thousands of dollars monthly</strong> for small operations</li>
+<li><strong>Millions annually</strong> for large facilities</li>
+<li>Can go undetected for extended periods</li>
+<li>Compounds over time</li>
+</ul>
+<h2>Forensic Investigation</h2>
+<h3>When to Investigate</h3>
+<p><strong>Warning Signs</strong>:</p>
+<ul>
+<li>Inventory discrepancies</li>
+<li>Customer complaints</li>
+<li>Suspicious weight patterns</li>
+<li>Equipment behaving unusually</li>
+<li>Anonymous tips</li>
+</ul>
+<h3>Investigation Process</h3>
+<ol>
+<li>
+<p><strong>Secure the Evidence</strong></p>
+<ul>
+<li>Isolate suspected equipment</li>
+<li>Preserve current state</li>
+<li>Prevent further tampering</li>
+<li>Document condition</li>
+</ul>
+</li>
+<li>
+<p><strong>Physical Inspection</strong></p>
+<ul>
+<li>Disassemble equipment systematically</li>
+<li>Photograph all components</li>
+<li>Look for unauthorized modifications</li>
+<li>Check verification seals</li>
+</ul>
+</li>
+<li>
+<p><strong>Electrical Testing</strong></p>
+<ul>
+<li>Measure load cell outputs</li>
+<li>Test junction box connections</li>
+<li>Verify indicator operation</li>
+<li>Check for parasitic devices</li>
+</ul>
+</li>
+<li>
+<p><strong>Data Analysis</strong></p>
+<ul>
+<li>Review transaction history</li>
+<li>Analyze weight patterns</li>
+<li>Compare to other stations</li>
+<li>Identify anomalies</li>
+</ul>
+</li>
+<li>
+<p><strong>Expert Consultation</strong></p>
+<ul>
+<li>Engage qualified technicians</li>
+<li>Consult legal metrology authorities</li>
+<li>Involve law enforcement if criminal</li>
+<li>Seek manufacturer assistance</li>
+</ul>
+</li>
+</ol>
+<h2>Legal Consequences</h2>
+<h3>Regulatory Violations</h3>
+<p>Under Kenya&#x27;s Weights and Measures Act and similar regulations worldwide:</p>
+<ul>
+<li><strong>Equipment confiscation</strong></li>
+<li><strong>Business closure orders</strong></li>
+<li><strong>Loss of trading licenses</strong></li>
+<li><strong>Fines and penalties</strong></li>
+</ul>
+<h3>Criminal Charges</h3>
+<p>Deliberate fraud can result in:</p>
+<ul>
+<li><strong>Fraud charges</strong></li>
+<li><strong>Theft by deception</strong></li>
+<li><strong>Criminal fines</strong></li>
+<li><strong>Imprisonment</strong></li>
+<li><strong>Restitution to victims</strong></li>
+</ul>
+<h3>Civil Liability</h3>
+<p>Businesses may face:</p>
+<ul>
+<li><strong>Lawsuits from defrauded parties</strong></li>
+<li><strong>Contract violations</strong></li>
+<li><strong>Reputation damage</strong></li>
+<li><strong>Loss of customers</strong></li>
+</ul>
+<h2>Summary</h2>
+<p>Physical tampering represents a serious threat to commercial weighing integrity. Common methods include:</p>
+<ul>
+<li><strong>Load cell manipulation</strong> through shunting, signal interception, or replacement</li>
+<li><strong>Display tampering</strong> via remote control devices or software modification</li>
+<li><strong>Mechanical modifications</strong> including hidden weights and platform manipulation</li>
+<li><strong>Weighbridge fraud</strong> through foundation tampering or operator collusion</li>
+</ul>
+<p><strong>Protection requires</strong>:</p>
+<ul>
+<li>Regular inspections and maintenance</li>
+<li>Robust security measures</li>
+<li>Operator training and supervision</li>
+<li>Detection technologies</li>
+<li>Audit and verification procedures</li>
+</ul>
+<p><strong>Understanding these methods enables</strong>:</p>
+<ul>
+<li>Effective counter-measure design</li>
+<li>Risk assessment</li>
+<li>Security system specifications</li>
+<li>Investigation of suspected fraud</li>
+</ul>
+<hr/>
+<h2>Key Takeaways</h2>
+<ul>
+<li><strong>Calibration security</strong> is critical: The &quot;box&quot; you&#x27;re referring to is the <strong>junction box</strong> or <strong>indicator enclosure</strong>, sealed with tamper-evident seals</li>
+<li><strong>Calibration switch/jumper</strong> on circuit board controls access to calibration mode - breaking seal to access it is tampering</li>
+<li><strong>Verification seals</strong> must be broken for any maintenance, requiring complete re-verification by authorities</li>
+<li><strong>Movement detection</strong> via accelerometers and tilt sensors detects relocation of portable scales</li>
+<li><strong>Power cycling</strong> is logged as potential tampering indicator (may indicate movement or configuration changes)</li>
+<li><strong>Audit trails</strong> record all calibration access, parameter changes, and power events in modern scales</li>
+<li>Tampering methods range from simple mechanical tricks to sophisticated electronic manipulation</li>
+<li>Remote control devices represent a significant modern threat</li>
+<li>Load cell tampering can go undetected for months, costing thousands</li>
+<li>Weighbridge fraud often involves multiple attack vectors</li>
+<li>Operator collusion is difficult to detect without proper controls</li>
+<li>Detection requires combination of physical security, electronic monitoring, and data analysis</li>
+<li><strong>Legal definition</strong>: In Kenya, tampering includes breaking seals, using magnets, adding hidden weights, or any unauthorized modification</li>
+<li>Prevention is more cost-effective than remediation</li>
+<li>Legal consequences include regulatory penalties and criminal charges</li>
+<li>Regular inspections and audits essential for fraud prevention</li>
+</ul>
+<p><strong>Educational Purpose</strong>: This information is provided to enable development of security systems and fraud prevention measures. Implementing any of these methods constitutes fraud and is illegal.</p></div><div class="mt-12 pt-8 border-t border-slate-200 dark:border-slate-800"><div class="flex items-center justify-between"><a class="flex items-center gap-2 px-4 py-2 bg-slate-100 dark:bg-slate-800 rounded-md hover:bg-slate-200 dark:hover:bg-slate-700 no-underline text-slate-900 dark:text-white" href="/courses/weighing-fundamentals/03-regulations/01-kenya-weights-measures"><svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5"></path></svg><div class="text-left"><div class="text-xs text-slate-600 dark:text-slate-400">Previous</div><div class="text-sm font-semibold">Kenya Weights Measures</div></div></a><a class="flex items-center gap-2 px-4 py-2 bg-emerald-600 text-white rounded-md hover:bg-emerald-700 no-underline ml-auto" href="/courses/weighing-fundamentals"><div class="text-sm font-semibold">Course Complete! 🎉</div></a></div></div></div></div></main><footer class="border-t border-slate-200 dark:border-slate-800 bg-slate-50 dark:bg-slate-900/50"><div class="mx-auto max-w-7xl px-6 py-12 lg:px-8"><div class="grid grid-cols-1 md:grid-cols-4 gap-8"><div class="col-span-1"><h3 class="text-sm font-semibold text-slate-900 dark:text-slate-100 mb-4">Weighing Systems</h3><p class="text-sm text-slate-600 dark:text-slate-400">Comprehensive knowledge base for weighing technology, regulations, and measurement systems.</p></div><div><h3 class="text-sm font-semibold text-slate-900 dark:text-slate-100 mb-4">Courses</h3><ul class="space-y-2"><li><a class="text-sm text-slate-600 dark:text-slate-400 hover:text-primary-600 dark:hover:text-primary-500 no-underline" href="/courses/weighing-fundamentals">Weighing Fundamentals</a></li><li><a class="text-sm text-slate-600 dark:text-slate-400 hover:text-primary-600 dark:hover:text-primary-500 no-underline" href="/courses">All Courses</a></li></ul></div><div><h3 class="text-sm font-semibold text-slate-900 dark:text-slate-100 mb-4">Resources</h3><ul class="space-y-2"><li><a class="text-sm text-slate-600 dark:text-slate-400 hover:text-primary-600 dark:hover:text-primary-500 no-underline" href="/tools">Tools &amp; Calculators</a></li><li><a class="text-sm text-slate-600 dark:text-slate-400 hover:text-primary-600 dark:hover:text-primary-500 no-underline" href="/downloads">Downloads</a></li><li><a class="text-sm text-slate-600 dark:text-slate-400 hover:text-primary-600 dark:hover:text-primary-500 no-underline" href="/documentation">Documentation</a></li></ul></div><div><h3 class="text-sm font-semibold text-slate-900 dark:text-slate-100 mb-4">About</h3><ul class="space-y-2"><li><a class="text-sm text-slate-600 dark:text-slate-400 hover:text-primary-600 dark:hover:text-primary-500 no-underline" href="/about">About This Site</a></li><li><a class="text-sm text-slate-600 dark:text-slate-400 hover:text-primary-600 dark:hover:text-primary-500 no-underline" href="/about/license">License</a></li></ul></div></div><div class="mt-8 border-t border-slate-200 dark:border-slate-800 pt-8 flex flex-col md:flex-row justify-between items-center"><p class="text-sm text-slate-600 dark:text-slate-400">© <!-- -->2024<!-- --> Weighing Systems Knowledge Base</p><div class="flex space-x-6 mt-4 md:mt-0"><a href="https://github.com/weightsandmeasures" target="_blank" rel="noopener noreferrer" class="text-slate-600 dark:text-slate-400 hover:text-primary-600 dark:hover:text-primary-500 no-underline" aria-label="GitHub"><svg class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clip-rule="evenodd"></path></svg><span class="sr-only">GitHub</span></a></div></div></div></footer><script src="/_next/static/chunks/webpack-04a79b13a5a8dd85.js" async=""></script><script>(self.__next_f=self.__next_f||[]).push([0]);self.__next_f.push([2,null])</script><script>self.__next_f.push([1,"1:HL[\"/_next/static/css/58e13d627443c1d2.css\",\"style\"]\n"])</script><script>self.__next_f.push([1,"2:I[1815,[],\"\"]\n4:I[6340,[\"340\",\"static/chunks/340-0ff0707594e8b932.js\",\"367\",\"static/chunks/app/courses/weighing-fundamentals/%5BmoduleSlug%5D/%5BlessonSlug%5D/page-0056ff64669a8156.js\"],\"\"]\n5:I[5092,[],\"\"]\n8:I[2023,[],\"\"]\n9:I[3072,[\"340\",\"static/chunks/340-0ff0707594e8b932.js\",\"185\",\"static/chunks/app/layout-ebc40e1b7cb925e1.js\"],\"default\"]\nb:I[1584,[],\"\"]\n6:[\"moduleSlug\",\"04-security\",\"d\"]\n7:[\"lessonSlug\",\"02-physical-tampering\",\"d\"]\nc:[]\n"])</script><script>self.__next_f.push([1,"0:[\"$\",\"$L2\",null,{\"buildId\":\"k4NdcAPucypOy5gIBOoka\",\"assetPrefix\":\"\",\"urlParts\":[\"\",\"courses\",\"weighing-fundamentals\",\"04-security\",\"02-physical-tampering\",\"\"],\"initialTree\":[\"\",{\"children\":[\"courses\",{\"children\":[\"weighing-fundamentals\",{\"children\":[[\"moduleSlug\",\"04-security\",\"d\"],{\"children\":[[\"lessonSlug\",\"02-physical-tampering\",\"d\"],{\"children\":[\"__PAGE__?{\\\"moduleSlug\\\":\\\"04-security\\\",\\\"lessonSlug\\\":\\\"02-physical-tampering\\\"}\",{}]}]}]}]}]},\"$undefined\",\"$undefined\",true],\"initialSeedData\":[\"\",{\"children\":[\"courses\",{\"children\":[\"weighing-fundamentals\",{\"children\":[[\"moduleSlug\",\"04-security\",\"d\"],{\"children\":[[\"lessonSlug\",\"02-physical-tampering\",\"d\"],{\"children\":[\"__PAGE__\",{},[[\"$L3\",[\"$\",\"div\",null,{\"className\":\"w-full\",\"children\":[[\"$\",\"div\",null,{\"className\":\"bg-slate-50 dark:bg-slate-900/50 border-b border-slate-200 dark:border-slate-800\",\"children\":[\"$\",\"div\",null,{\"className\":\"mx-auto max-w-4xl px-6 lg:px-8 py-4\",\"children\":[\"$\",\"nav\",null,{\"className\":\"flex items-center gap-2 text-sm\",\"children\":[[\"$\",\"$L4\",null,{\"href\":\"/courses\",\"className\":\"text-slate-600 dark:text-slate-400 hover:text-primary-600 dark:hover:text-primary-400 no-underline\",\"children\":\"Courses\"}],[\"$\",\"span\",null,{\"className\":\"text-slate-400\",\"children\":\"/\"}],[\"$\",\"$L4\",null,{\"href\":\"/courses/weighing-fundamentals\",\"className\":\"text-slate-600 dark:text-slate-400 hover:text-primary-600 dark:hover:text-primary-400 no-underline\",\"children\":\"Weighing Systems Fundamentals\"}],[\"$\",\"span\",null,{\"className\":\"text-slate-400\",\"children\":\"/\"}],[\"$\",\"span\",null,{\"className\":\"text-slate-900 dark:text-white\",\"children\":\"Physical Tampering\"}]]}]}]}],[\"$\",\"div\",null,{\"className\":\"mx-auto max-w-4xl px-6 lg:px-8 py-12\",\"children\":[[\"$\",\"div\",null,{\"className\":\"mb-8\",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex items-center gap-2 text-sm text-slate-600 dark:text-slate-400 mb-2\",\"children\":[[\"$\",\"svg\",null,{\"className\":\"w-4 h-4\",\"fill\":\"none\",\"viewBox\":\"0 0 24 24\",\"strokeWidth\":\"1.5\",\"stroke\":\"currentColor\",\"children\":[\"$\",\"path\",null,{\"strokeLinecap\":\"round\",\"strokeLinejoin\":\"round\",\"d\":\"M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 016-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0018 18a8.967 8.967 0 00-6 2.292m0-14.25v14.25\"}]}],[\"$\",\"span\",null,{\"children\":\"Security\"}]]}],[\"$\",\"h1\",null,{\"className\":\"text-4xl font-bold text-slate-900 dark:text-white\",\"children\":\"Physical Tampering\"}]]}],[\"$\",\"div\",null,{\"className\":\"prose prose-slate dark:prose-invert max-w-none\",\"children\":[[\"$\",\"h1\",\"h1-0\",{\"children\":\"Physical Tampering Methods and Vulnerabilities\"}],\"\\n\",[\"$\",\"h2\",\"h2-0\",{\"children\":\"Introduction to Weighing Scale Fraud\"}],\"\\n\",[\"$\",\"p\",\"p-0\",{\"children\":\"Weighing scale fraud represents a significant economic threat in commercial transactions. Understanding common tampering methods is essential for developing effective countermeasures and protecting business interests.\"}],\"\\n\",[\"$\",\"p\",\"p-1\",{\"children\":[\"This chapter documents known tampering techniques based on documented industry cases and security research. \",[\"$\",\"strong\",\"strong-0\",{\"children\":\"This information is provided for educational and defensive purposes only.\"}]]}],\"\\n\",[\"$\",\"h2\",\"h2-1\",{\"children\":\"Common Tampering Categories\"}],\"\\n\",[\"$\",\"p\",\"p-2\",{\"children\":\"Weighing scale tampering generally falls into four main categories:\"}],\"\\n\",[\"$\",\"ol\",\"ol-0\",{\"children\":[\"\\n\",[\"$\",\"li\",\"li-0\",{\"children\":[\"$\",\"strong\",\"strong-0\",{\"children\":\"Load Cell Manipulation\"}]}],\"\\n\",[\"$\",\"li\",\"li-1\",{\"children\":[\"$\",\"strong\",\"strong-0\",{\"children\":\"Display and Indicator Tampering\"}]}],\"\\n\",[\"$\",\"li\",\"li-2\",{\"children\":[\"$\",\"strong\",\"strong-0\",{\"children\":\"Mechanical Modifications\"}]}],\"\\n\",[\"$\",\"li\",\"li-3\",{\"children\":[\"$\",\"strong\",\"strong-0\",{\"children\":\"Weighbridge-Specific Fraud\"}]}],\"\\n\"]}],\"\\n\",[\"$\",\"h2\",\"h2-2\",{\"children\":\"1. Load Cell Tampering\"}],\"\\n\",[\"$\",\"p\",\"p-3\",{\"children\":\"Load cells are often targeted because they are the primary sensing element in modern weighing systems.\"}],\"\\n\",[\"$\",\"h3\",\"h3-0\",{\"children\":\"Methods\"}],\"\\n\",[\"$\",\"h4\",\"h4-0\",{\"children\":\"A. Load Cell Shunting\"}],\"\\n\",[\"$\",\"p\",\"p-4\",{\"children\":[[\"$\",\"strong\",\"strong-0\",{\"children\":\"Technique\"}],\":\"]}],\"\\n\",[\"$\",\"ul\",\"ul-0\",{\"children\":[\"\\n\",[\"$\",\"li\",\"li-0\",{\"children\":\"Adding resistors in parallel with strain gauge circuits\"}],\"\\n\",[\"$\",\"li\",\"li-1\",{\"children\":\"Alters the electrical resistance to change weight readings\"}],\"\\n\",[\"$\",\"li\",\"li-2\",{\"children\":\"Can reduce displayed weight while maintaining appearance of normal operation\"}],\"\\n\"]}],\"\\n\",[\"$\",\"p\",\"p-5\",{\"children\":[[\"$\",\"strong\",\"strong-0\",{\"children\":\"Detection Challenges\"}],\":\"]}],\"\\n\",[\"$\",\"ul\",\"ul-1\",{\"children\":[\"\\n\",[\"$\",\"li\",\"li-0\",{\"children\":\"Can be intermittent (activated only when needed)\"}],\"\\n\",[\"$\",\"li\",\"li-1\",{\"children\":\"May appear as legitimate signal variations\"}],\"\\n\",[\"$\",\"li\",\"li-2\",{\"children\":\"Requires detailed electrical inspection to discover\"}],\"\\n\"]}],\"\\n\",[\"$\",\"p\",\"p-6\",{\"children\":[[\"$\",\"strong\",\"strong-0\",{\"children\":\"Indicators\"}],\":\"]}],\"\\n\",[\"$\",\"ul\",\"ul-2\",{\"children\":[\"\\n\",[\"$\",\"li\",\"li-0\",{\"children\":\"Inconsistent weight readings\"}],\"\\n\",[\"$\",\"li\",\"li-1\",{\"children\":\"Load cell resistance measurements outside specifications\"}],\"\\n\",[\"$\",\"li\",\"li-2\",{\"children\":\"Unusual wiring or components near load cells\"}],\"\\n\",[\"$\",\"li\",\"li-3\",{\"children\":\"Broken or tampered junction box seals\"}],\"\\n\"]}],\"\\n\",[\"$\",\"h4\",\"h4-1\",{\"children\":\"B. Signal Line Interception\"}],\"\\n\",[\"$\",\"p\",\"p-7\",{\"children\":[[\"$\",\"strong\",\"strong-0\",{\"children\":\"Technique\"}],\":\"]}],\"\\n\",[\"$\",\"ul\",\"ul-3\",{\"children\":[\"\\n\",[\"$\",\"li\",\"li-0\",{\"children\":\"Intercepting wires between load cells and indicator\"}],\"\\n\",[\"$\",\"li\",\"li-1\",{\"children\":\"Installing devices to modify signals\"}],\"\\n\",[\"$\",\"li\",\"li-2\",{\"children\":\"May involve remote control activation\"}],\"\\n\"]}],\"\\n\",[\"$\",\"p\",\"p-8\",{\"children\":[[\"$\",\"strong\",\"strong-0\",{\"children\":\"Common Implementation\"}],\":\"]}],\"\\n\",[\"$\",\"ul\",\"ul-4\",{\"children\":[\"\\n\",[\"$\",\"li\",\"li-0\",{\"children\":\"Small electronic modules spliced into cables\"}],\"\\n\",[\"$\",\"li\",\"li-1\",{\"children\":\"Wireless receivers activated by remote control\"}],\"\\n\",[\"$\",\"li\",\"li-2\",{\"children\":\"Hidden in junction boxes or cable runs\"}],\"\\n\"]}],\"\\n\",[\"$\",\"p\",\"p-9\",{\"children\":[[\"$\",\"strong\",\"strong-0\",{\"children\":\"Detection\"}],\":\"]}],\"\\n\",[\"$\",\"ul\",\"ul-5\",{\"children\":[\"\\n\",[\"$\",\"li\",\"li-0\",{\"children\":\"Cable routing inspection\"}],\"\\n\",[\"$\",\"li\",\"li-1\",{\"children\":\"Checking for unauthorized splices\"}],\"\\n\",[\"$\",\"li\",\"li-2\",{\"children\":\"Resistance and continuity testing\"}],\"\\n\",[\"$\",\"li\",\"li-3\",{\"children\":\"Signal quality analysis\"}],\"\\n\"]}],\"\\n\",[\"$\",\"h4\",\"h4-2\",{\"children\":\"C. Load Cell Replacement\"}],\"\\n\",[\"$\",\"p\",\"p-10\",{\"children\":[[\"$\",\"strong\",\"strong-0\",{\"children\":\"Technique\"}],\":\"]}],\"\\n\",[\"$\",\"ul\",\"ul-6\",{\"children\":[\"\\n\",[\"$\",\"li\",\"li-0\",{\"children\":\"Replacing legitimate load cells with modified units\"}],\"\\n\",[\"$\",\"li\",\"li-1\",{\"children\":\"Modified cells may have altered strain gauge values\"}],\"\\n\",[\"$\",\"li\",\"li-2\",{\"children\":\"Can be programmed to under-report weight\"}],\"\\n\"]}],\"\\n\",[\"$\",\"p\",\"p-11\",{\"children\":[[\"$\",\"strong\",\"strong-0\",{\"children\":\"Detection\"}],\":\"]}],\"\\n\",[\"$\",\"ul\",\"ul-7\",{\"children\":[\"\\n\",[\"$\",\"li\",\"li-0\",{\"children\":\"Serial number verification\"}],\"\\n\",[\"$\",\"li\",\"li-1\",{\"children\":\"Load cell specifications check\"}],\"\\n\",[\"$\",\"li\",\"li-2\",{\"children\":\"Comparison with manufacturer records\"}],\"\\n\",[\"$\",\"li\",\"li-3\",{\"children\":\"Unexpected variation in cell outputs\"}],\"\\n\"]}],\"\\n\",[\"$\",\"h4\",\"h4-3\",{\"children\":\"D. Mechanical Loading\"}],\"\\n\",[\"$\",\"p\",\"p-12\",{\"children\":[[\"$\",\"strong\",\"strong-0\",{\"children\":\"Technique\"}],\":\"]}],\"\\n\",[\"$\",\"ul\",\"ul-8\",{\"children\":[\"\\n\",[\"$\",\"li\",\"li-0\",{\"children\":\"Adding hidden supports under weighing platform\"}],\"\\n\",[\"$\",\"li\",\"li-1\",{\"children\":\"Reduces actual load on load cells\"}],\"\\n\",[\"$\",\"li\",\"li-2\",{\"children\":\"Can be mechanical jacks, spacers, or wedges\"}],\"\\n\"]}],\"\\n\",[\"$\",\"p\",\"p-13\",{\"children\":[[\"$\",\"strong\",\"strong-0\",{\"children\":\"Detection\"}],\":\"]}],\"\\n\",[\"$\",\"ul\",\"ul-9\",{\"children\":[\"\\n\",[\"$\",\"li\",\"li-0\",{\"children\":\"Physical inspection under platform\"}],\"\\n\",[\"$\",\"li\",\"li-1\",{\"children\":\"Checking for binding or obstructions\"}],\"\\n\",[\"$\",\"li\",\"li-2\",{\"children\":\"Uneven load cell loading patterns\"}],\"\\n\",[\"$\",\"li\",\"li-3\",{\"children\":\"Platform deflection measurements\"}],\"\\n\"]}],\"\\n\",[\"$\",\"h2\",\"h2-3\",{\"children\":\"2. Display and Indicator Tampering\"}],\"\\n\",[\"$\",\"p\",\"p-14\",{\"children\":\"The weighing indicator or display can be manipulated to show incorrect weights.\"}],\"\\n\",[\"$\",\"h3\",\"h3-1\",{\"children\":\"Methods\"}],\"\\n\",[\"$\",\"h4\",\"h4-4\",{\"children\":\"A. Remote Control Devices\"}],\"\\n\",[\"$\",\"p\",\"p-15\",{\"children\":[[\"$\",\"strong\",\"strong-0\",{\"children\":\"Technique\"}],\":\"]}],\"\\n\",[\"$\",\"ul\",\"ul-10\",{\"children\":[\"\\n\",[\"$\",\"li\",\"li-0\",{\"children\":\"Installing devices that allow operator to control weight display\"}],\"\\n\",[\"$\",\"li\",\"li-1\",{\"children\":\"Can be purchased online and installed covertly\"}],\"\\n\",[\"$\",\"li\",\"li-2\",{\"children\":\"Activated via remote from driver's cab or nearby location\"}],\"\\n\"]}],\"\\n\",[\"$\",\"p\",\"p-16\",{\"children\":[[\"$\",\"strong\",\"strong-0\",{\"children\":\"How It Works\"}],\":\"]}],\"\\n\",[\"$\",\"ul\",\"ul-11\",{\"children\":[\"\\n\",[\"$\",\"li\",\"li-0\",{\"children\":\"Device intercepts signal between load cells and display\"}],\"\\n\",[\"$\",\"li\",\"li-1\",{\"children\":\"Operator can add or subtract weight with remote\"}],\"\\n\",[\"$\",\"li\",\"li-2\",{\"children\":\"May have preset amounts or continuous adjustment\"}],\"\\n\"]}],\"\\n\",[\"$\",\"p\",\"p-17\",{\"children\":[[\"$\",\"strong\",\"strong-0\",{\"children\":\"Warning Signs\"}],\":\"]}],\"\\n\",[\"$\",\"ul\",\"ul-12\",{\"children\":[\"\\n\",[\"$\",\"li\",\"li-0\",{\"children\":\"Unusual electronic devices near indicator\"}],\"\\n\",[\"$\",\"li\",\"li-1\",{\"children\":\"Unexplained weight variations\"}],\"\\n\",[\"$\",\"li\",\"li-2\",{\"children\":\"Consistent discrepancies in one direction\"}],\"\\n\",[\"$\",\"li\",\"li-3\",{\"children\":\"Weights that change when operator moves\"}],\"\\n\"]}],\"\\n\",[\"$\",\"p\",\"p-18\",{\"children\":[[\"$\",\"strong\",\"strong-0\",{\"children\":\"Detection\"}],\":\"]}],\"\\n\",[\"$\",\"ul\",\"ul-13\",{\"children\":[\"\\n\",[\"$\",\"li\",\"li-0\",{\"children\":\"Thorough inspection of indicator enclosure\"}],\"\\n\",[\"$\",\"li\",\"li-1\",{\"children\":\"Check for unauthorized circuit boards or modules\"}],\"\\n\",[\"$\",\"li\",\"li-2\",{\"children\":\"RF signal detection (if wireless remote used)\"}],\"\\n\",[\"$\",\"li\",\"li-3\",{\"children\":\"Test weighing with operator at different locations\"}],\"\\n\"]}],\"\\n\",[\"$\",\"h4\",\"h4-5\",{\"children\":\"B. Display Module Replacement\"}],\"\\n\",[\"$\",\"p\",\"p-19\",{\"children\":[[\"$\",\"strong\",\"strong-0\",{\"children\":\"Technique\"}],\":\"]}],\"\\n\",[\"$\",\"ul\",\"ul-14\",{\"children\":[\"\\n\",[\"$\",\"li\",\"li-0\",{\"children\":\"Replacing legitimate display with tampered unit\"}],\"\\n\",[\"$\",\"li\",\"li-1\",{\"children\":\"Modified firmware or hardware to show false weights\"}],\"\\n\",[\"$\",\"li\",\"li-2\",{\"children\":\"May look identical to original equipment\"}],\"\\n\"]}],\"\\n\",[\"$\",\"p\",\"p-20\",{\"children\":[[\"$\",\"strong\",\"strong-0\",{\"children\":\"Detection\"}],\":\"]}],\"\\n\",[\"$\",\"ul\",\"ul-15\",{\"children\":[\"\\n\",[\"$\",\"li\",\"li-0\",{\"children\":\"Serial number verification\"}],\"\\n\",[\"$\",\"li\",\"li-1\",{\"children\":\"Firmware version checking\"}],\"\\n\",[\"$\",\"li\",\"li-2\",{\"children\":\"Factory calibration data comparison\"}],\"\\n\",[\"$\",\"li\",\"li-3\",{\"children\":\"Return to zero test\"}],\"\\n\"]}],\"\\n\",[\"$\",\"h4\",\"h4-6\",{\"children\":\"C. Software Modification\"}],\"\\n\",[\"$\",\"p\",\"p-21\",{\"children\":[[\"$\",\"strong\",\"strong-0\",{\"children\":\"Technique\"}],\":\"]}],\"\\n\",[\"$\",\"ul\",\"ul-16\",{\"children\":[\"\\n\",[\"$\",\"li\",\"li-0\",{\"children\":\"Altering calibration settings\"}],\"\\n\",[\"$\",\"li\",\"li-1\",{\"children\":\"Modifying weight calculation algorithms\"}],\"\\n\",[\"$\",\"li\",\"li-2\",{\"children\":\"Installing modified firmware with backdoors\"}],\"\\n\"]}],\"\\n\",[\"$\",\"p\",\"p-22\",{\"children\":[[\"$\",\"strong\",\"strong-0\",{\"children\":\"Detection Difficulty\"}],\":\"]}],\"\\n\",[\"$\",\"ul\",\"ul-17\",{\"children\":[\"\\n\",[\"$\",\"li\",\"li-0\",{\"children\":\"Can be very sophisticated\"}],\"\\n\",[\"$\",\"li\",\"li-1\",{\"children\":\"May require forensic analysis\"}],\"\\n\",[\"$\",\"li\",\"li-2\",{\"children\":\"Often leaves no physical evidence\"}],\"\\n\"]}],\"\\n\",[\"$\",\"p\",\"p-23\",{\"children\":[[\"$\",\"strong\",\"strong-0\",{\"children\":\"Countermeasures\"}],\":\"]}],\"\\n\",[\"$\",\"ul\",\"ul-18\",{\"children\":[\"\\n\",[\"$\",\"li\",\"li-0\",{\"children\":\"Firmware integrity checking\"}],\"\\n\",[\"$\",\"li\",\"li-1\",{\"children\":\"Digital signatures on software\"}],\"\\n\",[\"$\",\"li\",\"li-2\",{\"children\":\"Secure boot processes\"}],\"\\n\",[\"$\",\"li\",\"li-3\",{\"children\":\"Audit logging\"}],\"\\n\"]}],\"\\n\",[\"$\",\"h4\",\"h4-7\",{\"children\":\"D. Calibration Mode Access\"}],\"\\n\",[\"$\",\"p\",\"p-24\",{\"children\":[[\"$\",\"strong\",\"strong-0\",{\"children\":\"Technique\"}],\":\"]}],\"\\n\",[\"$\",\"ul\",\"ul-19\",{\"children\":[\"\\n\",[\"$\",\"li\",\"li-0\",{\"children\":\"Unauthorized access to calibration mode to alter weight readings\"}],\"\\n\",[\"$\",\"li\",\"li-1\",{\"children\":\"Requires opening sealed enclosure to access calibration switch/jumper\"}],\"\\n\",[\"$\",\"li\",\"li-2\",{\"children\":\"May involve breaking verification seals\"}],\"\\n\"]}],\"\\n\",[\"$\",\"p\",\"p-25\",{\"children\":[[\"$\",\"strong\",\"strong-0\",{\"children\":\"What is Required for Legitimate Calibration\"}],\":\"]}],\"\\n\",[\"$\",\"ul\",\"ul-20\",{\"children\":[\"\\n\",[\"$\",\"li\",\"li-0\",{\"children\":\"Physical access to indicator enclosure (requires breaking seal)\"}],\"\\n\",[\"$\",\"li\",\"li-1\",{\"children\":\"Enabling calibration jumper or switch on main board\"}],\"\\n\",[\"$\",\"li\",\"li-2\",{\"children\":\"Password or key sequence to enter calibration menu (on some models)\"}],\"\\n\",[\"$\",\"li\",\"li-3\",{\"children\":\"Knowledge of calibration procedure\"}],\"\\n\",[\"$\",\"li\",\"li-4\",{\"children\":\"Authorized technician credentials\"}],\"\\n\"]}],\"\\n\",[\"$\",\"p\",\"p-26\",{\"children\":[[\"$\",\"strong\",\"strong-0\",{\"children\":\"Detection\"}],\":\"]}],\"\\n\",[\"$\",\"ul\",\"ul-21\",{\"children\":[\"\\n\",[\"$\",\"li\",\"li-0\",{\"children\":\"Broken or tampered verification seals\"}],\"\\n\",[\"$\",\"li\",\"li-1\",{\"children\":\"CAL counter incremented beyond official records\"}],\"\\n\",[\"$\",\"li\",\"li-2\",{\"children\":\"Audit trail showing calibration access\"}],\"\\n\",[\"$\",\"li\",\"li-3\",{\"children\":\"Enclosure showing signs of opening\"}],\"\\n\",[\"$\",\"li\",\"li-4\",{\"children\":\"Unauthorized personnel in possession of calibration passwords\"}],\"\\n\"]}],\"\\n\",[\"$\",\"p\",\"p-27\",{\"children\":[[\"$\",\"strong\",\"strong-0\",{\"children\":\"Regulatory Response\"}],\":\"]}],\"\\n\",[\"$\",\"ul\",\"ul-22\",{\"children\":[\"\\n\",[\"$\",\"li\",\"li-0\",{\"children\":\"Breaking seal without authority = tampering (even if settings unchanged)\"}],\"\\n\",[\"$\",\"li\",\"li-1\",{\"children\":\"Requires complete re-verification by weights \u0026 measures authority\"}],\"\\n\",[\"$\",\"li\",\"li-2\",{\"children\":\"May result in equipment confiscation and penalties\"}],\"\\n\",[\"$\",\"li\",\"li-3\",{\"children\":\"New seal applied only after official verification\"}],\"\\n\"]}],\"\\n\",[\"$\",\"h2\",\"h2-4\",{\"children\":\"3. Verification Seal and Calibration Protection\"}],\"\\n\",[\"$\",\"p\",\"p-28\",{\"children\":\"Modern weighing instruments include critical security features to prevent unauthorized modification.\"}],\"\\n\",[\"$\",\"h3\",\"h3-2\",{\"children\":\"The Calibration Switch and Jumper System\"}],\"\\n\",[\"$\",\"p\",\"p-29\",{\"children\":[[\"$\",\"strong\",\"strong-0\",{\"children\":\"What It Is\"}],\":\"]}],\"\\n\",[\"$\",\"ul\",\"ul-23\",{\"children\":[\"\\n\",[\"$\",\"li\",\"li-0\",{\"children\":\"A physical switch or jumper on the main circuit board\"}],\"\\n\",[\"$\",\"li\",\"li-1\",{\"children\":\"Prevents unauthorized access to calibration and configuration parameters\"}],\"\\n\",[\"$\",\"li\",\"li-2\",{\"children\":\"Required by OIML R76 for legal-for-trade instruments\"}],\"\\n\",[\"$\",\"li\",\"li-3\",{\"children\":\"Often called the \\\"calibration enable jumper\\\" or \\\"seal switch\\\"\"}],\"\\n\"]}],\"\\n\",[\"$\",\"p\",\"p-30\",{\"children\":[[\"$\",\"strong\",\"strong-0\",{\"children\":\"How It Works\"}],\":\"]}],\"\\n\",[\"$\",\"ul\",\"ul-24\",{\"children\":[\"\\n\",[\"$\",\"li\",\"li-0\",{\"children\":[\"With jumper \",[\"$\",\"strong\",\"strong-0\",{\"children\":\"removed\"}],\" (or switch in LOCK position): All calibration settings are locked\"]}],\"\\n\",[\"$\",\"li\",\"li-1\",{\"children\":[\"With jumper \",[\"$\",\"strong\",\"strong-0\",{\"children\":\"installed\"}],\" (or switch in UNLOCK position): Calibration mode can be accessed via software\"]}],\"\\n\",[\"$\",\"li\",\"li-2\",{\"children\":\"Accessing calibration requires both physical access (opening enclosure) and knowledge of procedure\"}],\"\\n\",[\"$\",\"li\",\"li-3\",{\"children\":\"Some instruments increment a CAL counter each time calibration mode is entered\"}],\"\\n\"]}],\"\\n\",[\"$\",\"p\",\"p-31\",{\"children\":[[\"$\",\"strong\",\"strong-0\",{\"children\":\"Security Requirement\"}],\":\"]}],\"\\n\",[\"$\",\"ul\",\"ul-25\",{\"children\":[\"\\n\",[\"$\",\"li\",\"li-0\",{\"children\":[\"The enclosure housing the calibration switch \",[\"$\",\"strong\",\"strong-0\",{\"children\":\"must be sealed\"}],\" with tamper-evident seal\"]}],\"\\n\",[\"$\",\"li\",\"li-1\",{\"children\":\"Breaking the seal to access the jumper constitutes tampering\"}],\"\\n\",[\"$\",\"li\",\"li-2\",{\"children\":\"Any legitimate calibration requires breaking seal, then re-verification and re-sealing by authorized personnel\"}],\"\\n\"]}],\"\\n\",[\"$\",\"h3\",\"h3-3\",{\"children\":\"Verification Seals and Tamper-Evident Labels\"}],\"\\n\",[\"$\",\"p\",\"p-32\",{\"children\":[[\"$\",\"strong\",\"strong-0\",{\"children\":\"Terminal/Junction Box Sealing\"}],\":\"]}],\"\\n\",[\"$\",\"ul\",\"ul-26\",{\"children\":[\"\\n\",[\"$\",\"li\",\"li-0\",{\"children\":[\"All weighing instruments have a \",[\"$\",\"strong\",\"strong-0\",{\"children\":\"junction box\"}],\" or \",[\"$\",\"strong\",\"strong-1\",{\"children\":\"terminal box\"}],\" where load cell cables connect to the indicator\"]}],\"\\n\",[\"$\",\"li\",\"li-1\",{\"children\":[\"This box \",[\"$\",\"strong\",\"strong-0\",{\"children\":\"must be sealed\"}],\" with official verification seal after initial calibration\"]}],\"\\n\",[\"$\",\"li\",\"li-2\",{\"children\":\"IP66 or higher rating required to prevent moisture/environmental damage\"}],\"\\n\",[\"$\",\"li\",\"li-3\",{\"children\":\"All unused cable entries must be sealed per EN-60079-10\"}],\"\\n\"]}],\"\\n\",[\"$\",\"p\",\"p-33\",{\"children\":[[\"$\",\"strong\",\"strong-0\",{\"children\":\"Types of Tamper-Evident Seals\"}],\":\"]}],\"\\n\",[\"$\",\"ol\",\"ol-1\",{\"children\":[\"\\n\",[\"$\",\"li\",\"li-0\",{\"children\":[\"\\n\",[\"$\",\"p\",\"p-0\",{\"children\":[\"$\",\"strong\",\"strong-0\",{\"children\":\"Wire and Lead Seals\"}]}],\"\\n\",[\"$\",\"ul\",\"ul-0\",{\"children\":[\"\\n\",[\"$\",\"li\",\"li-0\",{\"children\":\"Traditional method using wire threaded through fasteners\"}],\"\\n\",[\"$\",\"li\",\"li-1\",{\"children\":\"Embossed with verification authority mark\"}],\"\\n\",[\"$\",\"li\",\"li-2\",{\"children\":\"Must be destroyed to open enclosure\"}],\"\\n\"]}],\"\\n\"]}],\"\\n\",[\"$\",\"li\",\"li-1\",{\"children\":[\"\\n\",[\"$\",\"p\",\"p-0\",{\"children\":[\"$\",\"strong\",\"strong-0\",{\"children\":\"Security Labels/Stickers\"}]}],\"\\n\",[\"$\",\"ul\",\"ul-0\",{\"children\":[\"\\n\",[\"$\",\"li\",\"li-0\",{\"children\":\"Manufactured in matt silver polyester with special adhesive\"}],\"\\n\",[\"$\",\"li\",\"li-1\",{\"children\":\"Separates on attempted removal, leaving visible \\\"VOID\\\" pattern\"}],\"\\n\",[\"$\",\"li\",\"li-2\",{\"children\":\"Cannot be reapplied or transferred to non-approved equipment\"}],\"\\n\",[\"$\",\"li\",\"li-3\",{\"children\":\"Often includes serial number or QR code for tracking\"}],\"\\n\"]}],\"\\n\"]}],\"\\n\",[\"$\",\"li\",\"li-2\",{\"children\":[\"\\n\",[\"$\",\"p\",\"p-0\",{\"children\":[\"$\",\"strong\",\"strong-0\",{\"children\":\"Verification Stamps\"}]}],\"\\n\",[\"$\",\"ul\",\"ul-0\",{\"children\":[\"\\n\",[\"$\",\"li\",\"li-0\",{\"children\":\"Official stamp from weights \u0026 measures authority (e.g., KEBS in Kenya)\"}],\"\\n\",[\"$\",\"li\",\"li-1\",{\"children\":\"Applied after successful verification\"}],\"\\n\",[\"$\",\"li\",\"li-2\",{\"children\":\"Includes date, authority mark, and validity period\"}],\"\\n\",[\"$\",\"li\",\"li-3\",{\"children\":\"Must be renewed annually in most jurisdictions\"}],\"\\n\"]}],\"\\n\"]}],\"\\n\"]}],\"\\n\",[\"$\",\"p\",\"p-34\",{\"children\":[[\"$\",\"strong\",\"strong-0\",{\"children\":\"Seal Locations\"}],\":\"]}],\"\\n\",[\"$\",\"ul\",\"ul-27\",{\"children\":[\"\\n\",[\"$\",\"li\",\"li-0\",{\"children\":\"Indicator/display enclosure (covering calibration switch)\"}],\"\\n\",[\"$\",\"li\",\"li-1\",{\"children\":\"Junction box or terminal box (protecting load cell connections)\"}],\"\\n\",[\"$\",\"li\",\"li-2\",{\"children\":\"Load cell mounting points (on some installations)\"}],\"\\n\",[\"$\",\"li\",\"li-3\",{\"children\":\"External adjustment cavities (for mechanical components)\"}],\"\\n\"]}],\"\\n\",[\"$\",\"p\",\"p-35\",{\"children\":[[\"$\",\"strong\",\"strong-0\",{\"children\":\"What Constitutes Tampering\"}],\":\"]}],\"\\n\",[\"$\",\"ul\",\"ul-28\",{\"children\":[\"\\n\",[\"$\",\"li\",\"li-0\",{\"children\":\"Breaking or removing verification seals without authorization\"}],\"\\n\",[\"$\",\"li\",\"li-1\",{\"children\":\"Opening sealed enclosures\"}],\"\\n\",[\"$\",\"li\",\"li-2\",{\"children\":\"Accessing calibration mode (even without changing settings)\"}],\"\\n\",[\"$\",\"li\",\"li-3\",{\"children\":\"Replacing sealed components\"}],\"\\n\",[\"$\",\"li\",\"li-4\",{\"children\":\"Any modification to legally relevant parameters\"}],\"\\n\"]}],\"\\n\",[\"$\",\"h3\",\"h3-4\",{\"children\":\"Software Sealing and Audit Trails\"}],\"\\n\",[\"$\",\"p\",\"p-36\",{\"children\":[[\"$\",\"strong\",\"strong-0\",{\"children\":\"Modern Electronic Protection\"}],\":\"]}],\"\\n\",[\"$\",\"p\",\"p-37\",{\"children\":\"For instruments using software-based security instead of (or in addition to) physical jumpers:\"}],\"\\n\",[\"$\",\"p\",\"p-38\",{\"children\":[[\"$\",\"strong\",\"strong-0\",{\"children\":\"CAL and CONFIG Counters\"}],\":\"]}],\"\\n\",[\"$\",\"ul\",\"ul-29\",{\"children\":[\"\\n\",[\"$\",\"li\",\"li-0\",{\"children\":\"Two non-editable counters track modifications\"}],\"\\n\",[\"$\",\"li\",\"li-1\",{\"children\":[[\"$\",\"strong\",\"strong-0\",{\"children\":\"CAL counter\"}],\": Incremented each time calibration parameters are modified\"]}],\"\\n\",[\"$\",\"li\",\"li-2\",{\"children\":[[\"$\",\"strong\",\"strong-0\",{\"children\":\"CONFIG counter\"}],\": Incremented when legally relevant parameters change\"]}],\"\\n\",[\"$\",\"li\",\"li-3\",{\"children\":\"Access is password-protected\"}],\"\\n\",[\"$\",\"li\",\"li-4\",{\"children\":\"Counter values must be written on tamper-evident label near rating plate\"}],\"\\n\"]}],\"\\n\",[\"$\",\"p\",\"p-39\",{\"children\":[[\"$\",\"strong\",\"strong-0\",{\"children\":\"Audit Trail Requirements\"}],\" (OIML D31):\"]}],\"\\n\",[\"$\",\"ul\",\"ul-30\",{\"children\":[\"\\n\",[\"$\",\"li\",\"li-0\",{\"children\":\"Every access to calibration mode must be logged\"}],\"\\n\",[\"$\",\"li\",\"li-1\",{\"children\":\"Records include: timestamp, parameter changed, old value, new value\"}],\"\\n\",[\"$\",\"li\",\"li-2\",{\"children\":\"Audit log must be non-editable and tamper-proof\"}],\"\\n\",[\"$\",\"li\",\"li-3\",{\"children\":\"Some modern scales can export audit logs to PDF, XLS, CSV, HTML formats\"}],\"\\n\"]}],\"\\n\",[\"$\",\"p\",\"p-40\",{\"children\":[[\"$\",\"strong\",\"strong-0\",{\"children\":\"Power Cycling Detection\"}],\":\"]}],\"\\n\",[\"$\",\"ul\",\"ul-31\",{\"children\":[\"\\n\",[\"$\",\"li\",\"li-0\",{\"children\":\"Modern instruments log all power-on/power-off events\"}],\"\\n\",[\"$\",\"li\",\"li-1\",{\"children\":\"Unexpected power cycles may indicate tampering attempt\"}],\"\\n\",[\"$\",\"li\",\"li-2\",{\"children\":\"Some systems alert if powered on outside normal operating hours\"}],\"\\n\",[\"$\",\"li\",\"li-3\",{\"children\":\"Logs retained even after power loss (non-volatile memory)\"}],\"\\n\"]}],\"\\n\",[\"$\",\"h3\",\"h3-5\",{\"children\":\"Movement and Position Tampering\"}],\"\\n\",[\"$\",\"p\",\"p-41\",{\"children\":[[\"$\",\"strong\",\"strong-0\",{\"children\":\"For Portable Scales\"}],\":\"]}],\"\\n\",[\"$\",\"p\",\"p-42\",{\"children\":[[\"$\",\"strong\",\"strong-0\",{\"children\":\"The Problem\"}],\":\"]}],\"\\n\",[\"$\",\"ul\",\"ul-32\",{\"children\":[\"\\n\",[\"$\",\"li\",\"li-0\",{\"children\":\"Moving a calibrated scale can affect accuracy\"}],\"\\n\",[\"$\",\"li\",\"li-1\",{\"children\":\"Gravity varies by location (altitude and latitude)\"}],\"\\n\",[\"$\",\"li\",\"li-2\",{\"children\":\"Tilt or uneven placement affects load cell readings\"}],\"\\n\",[\"$\",\"li\",\"li-3\",{\"children\":\"Switching scale off/on in different location may indicate relocation\"}],\"\\n\"]}],\"\\n\",[\"$\",\"p\",\"p-43\",{\"children\":[[\"$\",\"strong\",\"strong-0\",{\"children\":\"Movement Detection Technologies\"}],\":\"]}],\"\\n\",[\"$\",\"ol\",\"ol-2\",{\"children\":[\"\\n\",[\"$\",\"li\",\"li-0\",{\"children\":[\"\\n\",[\"$\",\"p\",\"p-0\",{\"children\":[\"$\",\"strong\",\"strong-0\",{\"children\":\"Accelerometers and Tilt Sensors\"}]}],\"\\n\",[\"$\",\"ul\",\"ul-0\",{\"children\":[\"\\n\",[\"$\",\"li\",\"li-0\",{\"children\":\"3-axis accelerometer detects movement and tilt angle\"}],\"\\n\",[\"$\",\"li\",\"li-1\",{\"children\":\"Measures X, Y, Z axis inclination\"}],\"\\n\",[\"$\",\"li\",\"li-2\",{\"children\":\"Can detect if scale has been moved or repositioned\"}],\"\\n\",[\"$\",\"li\",\"li-3\",{\"children\":\"Threshold alerts when tilt exceeds acceptable range (typically ±0.5°)\"}],\"\\n\"]}],\"\\n\"]}],\"\\n\",[\"$\",\"li\",\"li-1\",{\"children\":[\"\\n\",[\"$\",\"p\",\"p-0\",{\"children\":[[\"$\",\"strong\",\"strong-0\",{\"children\":\"Tamper Event Logging\"}],\":\"]}],\"\\n\",[\"$\",\"ul\",\"ul-0\",{\"children\":[\"\\n\",[\"$\",\"li\",\"li-0\",{\"children\":\"Accelerometer positioned in scale enclosure detects relative movement\"}],\"\\n\",[\"$\",\"li\",\"li-1\",{\"children\":\"Once movement exceeds predetermined threshold, system logs tamper event\"}],\"\\n\",[\"$\",\"li\",\"li-2\",{\"children\":\"Some systems transmit wireless notification via LoRaWAN or cellular\"}],\"\\n\",[\"$\",\"li\",\"li-3\",{\"children\":\"Can distinguish between normal vibration and deliberate movement\"}],\"\\n\"]}],\"\\n\"]}],\"\\n\",[\"$\",\"li\",\"li-2\",{\"children\":[\"\\n\",[\"$\",\"p\",\"p-0\",{\"children\":[[\"$\",\"strong\",\"strong-0\",{\"children\":\"Geographic Position Tracking\"}],\":\"]}],\"\\n\",[\"$\",\"ul\",\"ul-0\",{\"children\":[\"\\n\",[\"$\",\"li\",\"li-0\",{\"children\":\"GPS modules in some high-value scales\"}],\"\\n\",[\"$\",\"li\",\"li-1\",{\"children\":\"Logs latitude/longitude during calibration\"}],\"\\n\",[\"$\",\"li\",\"li-2\",{\"children\":\"Alerts if scale moved \u003e100m from calibration location\"}],\"\\n\",[\"$\",\"li\",\"li-3\",{\"children\":\"Useful for rental scales or mobile weighbridges\"}],\"\\n\"]}],\"\\n\"]}],\"\\n\"]}],\"\\n\",[\"$\",\"p\",\"p-44\",{\"children\":[[\"$\",\"strong\",\"strong-0\",{\"children\":\"Response to Movement Detection\"}],\":\"]}],\"\\n\",[\"$\",\"ul\",\"ul-33\",{\"children\":[\"\\n\",[\"$\",\"li\",\"li-0\",{\"children\":\"Scale may lock out and require re-verification\"}],\"\\n\",[\"$\",\"li\",\"li-1\",{\"children\":\"Warning message displayed to operator\"}],\"\\n\",[\"$\",\"li\",\"li-2\",{\"children\":\"Logged event for inspection by authorities\"}],\"\\n\",[\"$\",\"li\",\"li-3\",{\"children\":\"Some scales adjust automatically for local gravity (with authority approval)\"}],\"\\n\"]}],\"\\n\",[\"$\",\"p\",\"p-45\",{\"children\":[[\"$\",\"strong\",\"strong-0\",{\"children\":\"Power Cycling as Tampering Indicator\"}],\":\"]}],\"\\n\",[\"$\",\"p\",\"p-46\",{\"children\":\"When scale is switched off and back on:\"}],\"\\n\",[\"$\",\"ul\",\"ul-34\",{\"children\":[\"\\n\",[\"$\",\"li\",\"li-0\",{\"children\":\"Location may have changed\"}],\"\\n\",[\"$\",\"li\",\"li-1\",{\"children\":\"Configuration may have been altered during downtime\"}],\"\\n\",[\"$\",\"li\",\"li-2\",{\"children\":\"Logs should record: time powered off, duration, time powered on\"}],\"\\n\",[\"$\",\"li\",\"li-3\",{\"children\":\"Unusual power patterns (e.g., multiple cycles in short period) raise suspicion\"}],\"\\n\"]}],\"\\n\",[\"$\",\"h3\",\"h3-6\",{\"children\":\"Regulatory Definitions of Tampering\"}],\"\\n\",[\"$\",\"p\",\"p-47\",{\"children\":[[\"$\",\"strong\",\"strong-0\",{\"children\":\"Kenya Weights and Measures Act (Cap 513)\"}],\":\"]}],\"\\n\",[\"$\",\"p\",\"p-48\",{\"children\":\"Tampering includes:\"}],\"\\n\",[\"$\",\"ul\",\"ul-35\",{\"children\":[\"\\n\",[\"$\",\"li\",\"li-0\",{\"children\":[[\"$\",\"strong\",\"strong-0\",{\"children\":\"Breaking verification seals\"}],\" without authorization from KEBS\"]}],\"\\n\",[\"$\",\"li\",\"li-1\",{\"children\":[[\"$\",\"strong\",\"strong-0\",{\"children\":\"Tampering with calibration knobs\"}],\" (mechanical adjustments)\"]}],\"\\n\",[\"$\",\"li\",\"li-2\",{\"children\":[[\"$\",\"strong\",\"strong-0\",{\"children\":\"Using magnets\"}],\" to tamper with scale accuracy\"]}],\"\\n\",[\"$\",\"li\",\"li-3\",{\"children\":[[\"$\",\"strong\",\"strong-0\",{\"children\":\"Using heavier plates\"}],\" on weighing platform to increase apparent weight\"]}],\"\\n\",[\"$\",\"li\",\"li-4\",{\"children\":[[\"$\",\"strong\",\"strong-0\",{\"children\":\"Tying weights to scale\"}],\" mechanism to dupe buyers\"]}],\"\\n\",[\"$\",\"li\",\"li-5\",{\"children\":[[\"$\",\"strong\",\"strong-0\",{\"children\":\"Setting higher prices\"}],\" on digital scales to inflate cost\"]}],\"\\n\",[\"$\",\"li\",\"li-6\",{\"children\":[\"Any \",[\"$\",\"strong\",\"strong-0\",{\"children\":\"unauthorized modification\"}],\" affecting weight indication\"]}],\"\\n\"]}],\"\\n\",[\"$\",\"p\",\"p-49\",{\"children\":[[\"$\",\"strong\",\"strong-0\",{\"children\":\"Penalties under Kenyan Law\"}],\":\"]}],\"\\n\",[\"$\",\"ul\",\"ul-36\",{\"children\":[\"\\n\",[\"$\",\"li\",\"li-0\",{\"children\":[\"Fine up to \",[\"$\",\"strong\",\"strong-0\",{\"children\":\"KES 20,000\"}],\" (approximately USD 150)\"]}],\"\\n\",[\"$\",\"li\",\"li-1\",{\"children\":[[\"$\",\"strong\",\"strong-0\",{\"children\":\"Imprisonment up to 3 years\"}],\", or both\"]}],\"\\n\",[\"$\",\"li\",\"li-2\",{\"children\":[\"$\",\"strong\",\"strong-0\",{\"children\":\"Equipment confiscation\"}]}],\"\\n\",[\"$\",\"li\",\"li-3\",{\"children\":[[\"$\",\"strong\",\"strong-0\",{\"children\":\"Business closure\"}],\" orders\"]}],\"\\n\",[\"$\",\"li\",\"li-4\",{\"children\":\"Prevention from continuing to deal in goods related to offense\"}],\"\\n\"]}],\"\\n\",[\"$\",\"p\",\"p-50\",{\"children\":[[\"$\",\"strong\",\"strong-0\",{\"children\":\"OIML International Standards\"}],\":\"]}],\"\\n\",[\"$\",\"p\",\"p-51\",{\"children\":\"Tampering or unauthorized adjustment:\"}],\"\\n\",[\"$\",\"ul\",\"ul-37\",{\"children\":[\"\\n\",[\"$\",\"li\",\"li-0\",{\"children\":\"Accessing legally relevant parameters without authority\"}],\"\\n\",[\"$\",\"li\",\"li-1\",{\"children\":\"Breaking official seals\"}],\"\\n\",[\"$\",\"li\",\"li-2\",{\"children\":\"Modifying firmware or software\"}],\"\\n\",[\"$\",\"li\",\"li-3\",{\"children\":\"Replacing components affecting measurement\"}],\"\\n\",[\"$\",\"li\",\"li-4\",{\"children\":\"Any action invalidating verification status\"}],\"\\n\"]}],\"\\n\",[\"$\",\"p\",\"p-52\",{\"children\":[[\"$\",\"strong\",\"strong-0\",{\"children\":\"Required Actions After Seal Breaking\"}],\":\"]}],\"\\n\",[\"$\",\"p\",\"p-53\",{\"children\":[\"Even for \",[\"$\",\"strong\",\"strong-0\",{\"children\":\"legitimate maintenance\"}],\":\"]}],\"\\n\",[\"$\",\"ol\",\"ol-3\",{\"children\":[\"\\n\",[\"$\",\"li\",\"li-0\",{\"children\":\"Seal must be broken by authorized technician\"}],\"\\n\",[\"$\",\"li\",\"li-1\",{\"children\":\"Maintenance/repair performed\"}],\"\\n\",[\"$\",\"li\",\"li-2\",{\"children\":[[\"$\",\"strong\",\"strong-0\",{\"children\":\"Complete re-verification\"}],\" by legal metrology authority\"]}],\"\\n\",[\"$\",\"li\",\"li-3\",{\"children\":\"New verification stamp/seal applied\"}],\"\\n\",[\"$\",\"li\",\"li-4\",{\"children\":\"Event recorded in audit trail and Scale Record Log\"}],\"\\n\",[\"$\",\"li\",\"li-5\",{\"children\":\"Documentation updated with new seal number and date\"}],\"\\n\"]}],\"\\n\",[\"$\",\"p\",\"p-54\",{\"children\":[[\"$\",\"strong\",\"strong-0\",{\"children\":\"Unauthorized Access Detection\"}],\":\"]}],\"\\n\",[\"$\",\"p\",\"p-55\",{\"children\":\"Inspectors check for:\"}],\"\\n\",[\"$\",\"ul\",\"ul-38\",{\"children\":[\"\\n\",[\"$\",\"li\",\"li-0\",{\"children\":\"Broken or missing seals\"}],\"\\n\",[\"$\",\"li\",\"li-1\",{\"children\":\"Seals that don't match official records\"}],\"\\n\",[\"$\",\"li\",\"li-2\",{\"children\":\"Tamper-evident labels showing \\\"VOID\\\" pattern\"}],\"\\n\",[\"$\",\"li\",\"li-3\",{\"children\":\"Audit trail showing unauthorized calibration access\"}],\"\\n\",[\"$\",\"li\",\"li-4\",{\"children\":\"CAL/CONFIG counters higher than official records\"}],\"\\n\",[\"$\",\"li\",\"li-5\",{\"children\":\"Equipment modifications not documented\"}],\"\\n\",[\"$\",\"li\",\"li-6\",{\"children\":\"Movement detection alerts\"}],\"\\n\",[\"$\",\"li\",\"li-7\",{\"children\":\"Unusual power cycling patterns\"}],\"\\n\"]}],\"\\n\",[\"$\",\"h2\",\"h2-5\",{\"children\":\"4. Mechanical Modifications\"}],\"\\n\",[\"$\",\"p\",\"p-56\",{\"children\":\"Physical alterations to the weighing mechanism.\"}],\"\\n\",[\"$\",\"h3\",\"h3-7\",{\"children\":\"Methods\"}],\"\\n\",[\"$\",\"h4\",\"h4-8\",{\"children\":\"A. Hidden Weights\"}],\"\\n\",[\"$\",\"p\",\"p-57\",{\"children\":[[\"$\",\"strong\",\"strong-0\",{\"children\":\"Technique\"}],\":\"]}],\"\\n\",[\"$\",\"ul\",\"ul-39\",{\"children\":[\"\\n\",[\"$\",\"li\",\"li-0\",{\"children\":\"Concealing weights within platform structure\"}],\"\\n\",[\"$\",\"li\",\"li-1\",{\"children\":\"Adds apparent weight to goods being sold\"}],\"\\n\",[\"$\",\"li\",\"li-2\",{\"children\":\"Can be removable for inspections\"}],\"\\n\"]}],\"\\n\",[\"$\",\"p\",\"p-58\",{\"children\":[[\"$\",\"strong\",\"strong-0\",{\"children\":\"Typical Locations\"}],\":\"]}],\"\\n\",[\"$\",\"ul\",\"ul-40\",{\"children\":[\"\\n\",[\"$\",\"li\",\"li-0\",{\"children\":\"Inside hollow platform frame\"}],\"\\n\",[\"$\",\"li\",\"li-1\",{\"children\":\"Under platform deck\"}],\"\\n\",[\"$\",\"li\",\"li-2\",{\"children\":\"Within enclosures or covers\"}],\"\\n\"]}],\"\\n\",[\"$\",\"p\",\"p-59\",{\"children\":[[\"$\",\"strong\",\"strong-0\",{\"children\":\"Detection\"}],\":\"]}],\"\\n\",[\"$\",\"ul\",\"ul-41\",{\"children\":[\"\\n\",[\"$\",\"li\",\"li-0\",{\"children\":\"Physical inspection of platform\"}],\"\\n\",[\"$\",\"li\",\"li-1\",{\"children\":\"Weight consistency checks\"}],\"\\n\",[\"$\",\"li\",\"li-2\",{\"children\":\"Comparing platform weight to specifications\"}],\"\\n\",[\"$\",\"li\",\"li-3\",{\"children\":\"X-ray or ultrasonic inspection\"}],\"\\n\"]}],\"\\n\",[\"$\",\"h4\",\"h4-9\",{\"children\":\"B. Lever Mechanism Modification\"}],\"\\n\",[\"$\",\"p\",\"p-60\",{\"children\":[[\"$\",\"strong\",\"strong-0\",{\"children\":\"Technique\"}],\" (for mechanical scales):\"]}],\"\\n\",[\"$\",\"ul\",\"ul-42\",{\"children\":[\"\\n\",[\"$\",\"li\",\"li-0\",{\"children\":\"Adjusting lever ratios or pivot points\"}],\"\\n\",[\"$\",\"li\",\"li-1\",{\"children\":\"Alters mechanical advantage\"}],\"\\n\",[\"$\",\"li\",\"li-2\",{\"children\":\"Changes weight multiplication factor\"}],\"\\n\"]}],\"\\n\",[\"$\",\"p\",\"p-61\",{\"children\":[[\"$\",\"strong\",\"strong-0\",{\"children\":\"Detection\"}],\":\"]}],\"\\n\",[\"$\",\"ul\",\"ul-43\",{\"children\":[\"\\n\",[\"$\",\"li\",\"li-0\",{\"children\":\"Mechanical inspection of linkages\"}],\"\\n\",[\"$\",\"li\",\"li-1\",{\"children\":\"Verification of lever ratios\"}],\"\\n\",[\"$\",\"li\",\"li-2\",{\"children\":\"Seal inspection on adjustments\"}],\"\\n\",[\"$\",\"li\",\"li-3\",{\"children\":\"Test weighing with known weights\"}],\"\\n\"]}],\"\\n\",[\"$\",\"h4\",\"h4-10\",{\"children\":\"C. Platform Position Manipulation\"}],\"\\n\",[\"$\",\"p\",\"p-62\",{\"children\":[[\"$\",\"strong\",\"strong-0\",{\"children\":\"Technique\"}],\":\"]}],\"\\n\",[\"$\",\"ul\",\"ul-44\",{\"children\":[\"\\n\",[\"$\",\"li\",\"li-0\",{\"children\":\"Deliberately positioning vehicle incorrectly on weighbridge\"}],\"\\n\",[\"$\",\"li\",\"li-1\",{\"children\":\"Leaving rear axles off platform\"}],\"\\n\",[\"$\",\"li\",\"li-2\",{\"children\":\"Partial weighing to reduce total\"}],\"\\n\"]}],\"\\n\",[\"$\",\"p\",\"p-63\",{\"children\":[[\"$\",\"strong\",\"strong-0\",{\"children\":\"Execution\"}],\":\"]}],\"\\n\",[\"$\",\"ul\",\"ul-45\",{\"children\":[\"\\n\",[\"$\",\"li\",\"li-0\",{\"children\":\"Works best at unattended or poorly supervised sites\"}],\"\\n\",[\"$\",\"li\",\"li-1\",{\"children\":\"May involve collusion with weighbridge operator\"}],\"\\n\",[\"$\",\"li\",\"li-2\",{\"children\":\"Can be very difficult to detect without cameras\"}],\"\\n\"]}],\"\\n\",[\"$\",\"p\",\"p-64\",{\"children\":[[\"$\",\"strong\",\"strong-0\",{\"children\":\"Prevention\"}],\":\"]}],\"\\n\",[\"$\",\"ul\",\"ul-46\",{\"children\":[\"\\n\",[\"$\",\"li\",\"li-0\",{\"children\":\"Traffic control systems (lights, barriers)\"}],\"\\n\",[\"$\",\"li\",\"li-1\",{\"children\":\"Video surveillance\"}],\"\\n\",[\"$\",\"li\",\"li-2\",{\"children\":\"Automated vehicle detection\"}],\"\\n\",[\"$\",\"li\",\"li-3\",{\"children\":\"Operator training and supervision\"}],\"\\n\",[\"$\",\"li\",\"li-4\",{\"children\":\"Physical barriers to ensure complete positioning\"}],\"\\n\"]}],\"\\n\",[\"$\",\"h2\",\"h2-6\",{\"children\":\"4. Weighbridge-Specific Fraud\"}],\"\\n\",[\"$\",\"p\",\"p-65\",{\"children\":\"Techniques unique to large-scale weighing systems.\"}],\"\\n\",[\"$\",\"h3\",\"h3-8\",{\"children\":\"Methods\"}],\"\\n\",[\"$\",\"h4\",\"h4-11\",{\"children\":\"A. Foundation Manipulation\"}],\"\\n\",[\"$\",\"p\",\"p-66\",{\"children\":[[\"$\",\"strong\",\"strong-0\",{\"children\":\"Technique\"}],\":\"]}],\"\\n\",[\"$\",\"ul\",\"ul-47\",{\"children\":[\"\\n\",[\"$\",\"li\",\"li-0\",{\"children\":\"Digging under weighbridge platform\"}],\"\\n\",[\"$\",\"li\",\"li-1\",{\"children\":\"Adding additional support points\"}],\"\\n\",[\"$\",\"li\",\"li-2\",{\"children\":\"Reduces load on official load cells\"}],\"\\n\"]}],\"\\n\",[\"$\",\"p\",\"p-67\",{\"children\":[[\"$\",\"strong\",\"strong-0\",{\"children\":\"Execution\"}],\":\"]}],\"\\n\",[\"$\",\"ul\",\"ul-48\",{\"children\":[\"\\n\",[\"$\",\"li\",\"li-0\",{\"children\":\"Requires access beneath platform (pit-type vulnerable)\"}],\"\\n\",[\"$\",\"li\",\"li-1\",{\"children\":\"Done during off-hours\"}],\"\\n\",[\"$\",\"li\",\"li-2\",{\"children\":\"Can be very effective if undetected\"}],\"\\n\"]}],\"\\n\",[\"$\",\"p\",\"p-68\",{\"children\":[[\"$\",\"strong\",\"strong-0\",{\"children\":\"Detection\"}],\":\"]}],\"\\n\",[\"$\",\"ul\",\"ul-49\",{\"children\":[\"\\n\",[\"$\",\"li\",\"li-0\",{\"children\":\"Regular physical inspections\"}],\"\\n\",[\"$\",\"li\",\"li-1\",{\"children\":\"Looking for disturbed soil or foundations\"}],\"\\n\",[\"$\",\"li\",\"li-2\",{\"children\":\"Load cell output comparison\"}],\"\\n\",[\"$\",\"li\",\"li-3\",{\"children\":\"Structural surveys\"}],\"\\n\"]}],\"\\n\",[\"$\",\"p\",\"p-69\",{\"children\":[[\"$\",\"strong\",\"strong-0\",{\"children\":\"Prevention\"}],\":\"]}],\"\\n\",[\"$\",\"ul\",\"ul-50\",{\"children\":[\"\\n\",[\"$\",\"li\",\"li-0\",{\"children\":\"Secure pit access\"}],\"\\n\",[\"$\",\"li\",\"li-1\",{\"children\":\"Surveillance of weighbridge area\"}],\"\\n\",[\"$\",\"li\",\"li-2\",{\"children\":\"Regular maintenance inspections\"}],\"\\n\",[\"$\",\"li\",\"li-3\",{\"children\":\"Concrete barriers or sealed pits\"}],\"\\n\"]}],\"\\n\",[\"$\",\"h4\",\"h4-12\",{\"children\":\"B. Software and Database Manipulation\"}],\"\\n\",[\"$\",\"p\",\"p-70\",{\"children\":[[\"$\",\"strong\",\"strong-0\",{\"children\":\"Technique\"}],\":\"]}],\"\\n\",[\"$\",\"ul\",\"ul-51\",{\"children\":[\"\\n\",[\"$\",\"li\",\"li-0\",{\"children\":\"Altering weight records in database\"}],\"\\n\",[\"$\",\"li\",\"li-1\",{\"children\":\"Modifying transaction logs\"}],\"\\n\",[\"$\",\"li\",\"li-2\",{\"children\":\"Changing stored tare weights\"}],\"\\n\"]}],\"\\n\",[\"$\",\"p\",\"p-71\",{\"children\":[[\"$\",\"strong\",\"strong-0\",{\"children\":\"Methods\"}],\":\"]}],\"\\n\",[\"$\",\"ul\",\"ul-52\",{\"children\":[\"\\n\",[\"$\",\"li\",\"li-0\",{\"children\":\"Unauthorized database access\"}],\"\\n\",[\"$\",\"li\",\"li-1\",{\"children\":\"Insider collusion (operator or IT staff)\"}],\"\\n\",[\"$\",\"li\",\"li-2\",{\"children\":\"Hacking weighbridge software\"}],\"\\n\",[\"$\",\"li\",\"li-3\",{\"children\":\"Ticket reprinting with altered weights\"}],\"\\n\"]}],\"\\n\",[\"$\",\"p\",\"p-72\",{\"children\":[[\"$\",\"strong\",\"strong-0\",{\"children\":\"Detection\"}],\":\"]}],\"\\n\",[\"$\",\"ul\",\"ul-53\",{\"children\":[\"\\n\",[\"$\",\"li\",\"li-0\",{\"children\":\"Audit trail analysis\"}],\"\\n\",[\"$\",\"li\",\"li-1\",{\"children\":\"Database integrity checks\"}],\"\\n\",[\"$\",\"li\",\"li-2\",{\"children\":\"Comparing physical tickets to digital records\"}],\"\\n\",[\"$\",\"li\",\"li-3\",{\"children\":\"Statistical analysis of weight patterns\"}],\"\\n\"]}],\"\\n\",[\"$\",\"p\",\"p-73\",{\"children\":[[\"$\",\"strong\",\"strong-0\",{\"children\":\"Prevention\"}],\":\"]}],\"\\n\",[\"$\",\"ul\",\"ul-54\",{\"children\":[\"\\n\",[\"$\",\"li\",\"li-0\",{\"children\":\"Access controls and authentication\"}],\"\\n\",[\"$\",\"li\",\"li-1\",{\"children\":\"Database encryption\"}],\"\\n\",[\"$\",\"li\",\"li-2\",{\"children\":\"Automated backups\"}],\"\\n\",[\"$\",\"li\",\"li-3\",{\"children\":\"Audit logging\"}],\"\\n\",[\"$\",\"li\",\"li-4\",{\"children\":\"Separation of duties\"}],\"\\n\"]}],\"\\n\",[\"$\",\"h4\",\"h4-13\",{\"children\":\"C. Operator Collusion Schemes\"}],\"\\n\",[\"$\",\"p\",\"p-74\",{\"children\":[[\"$\",\"strong\",\"strong-0\",{\"children\":\"Technique\"}],\":\"]}],\"\\n\",[\"$\",\"ul\",\"ul-55\",{\"children\":[\"\\n\",[\"$\",\"li\",\"li-0\",{\"children\":\"Driver and scale operator work together\"}],\"\\n\",[\"$\",\"li\",\"li-1\",{\"children\":\"Operator manually alters weight reading\"}],\"\\n\",[\"$\",\"li\",\"li-2\",{\"children\":\"Driver receives cut of proceeds\"}],\"\\n\"]}],\"\\n\",[\"$\",\"p\",\"p-75\",{\"children\":[[\"$\",\"strong\",\"strong-0\",{\"children\":\"Common Scenarios\"}],\":\"]}],\"\\n\",[\"$\",\"ul\",\"ul-56\",{\"children\":[\"\\n\",[\"$\",\"li\",\"li-0\",{\"children\":\"Reducing outbound weight (buyer fraud)\"}],\"\\n\",[\"$\",\"li\",\"li-1\",{\"children\":\"Increasing inbound weight (seller fraud)\"}],\"\\n\",[\"$\",\"li\",\"li-2\",{\"children\":\"Waiving weighing fees for kickbacks\"}],\"\\n\",[\"$\",\"li\",\"li-3\",{\"children\":\"Providing false documentation\"}],\"\\n\"]}],\"\\n\",[\"$\",\"p\",\"p-76\",{\"children\":[[\"$\",\"strong\",\"strong-0\",{\"children\":\"Detection\"}],\":\"]}],\"\\n\",[\"$\",\"ul\",\"ul-57\",{\"children\":[\"\\n\",[\"$\",\"li\",\"li-0\",{\"children\":\"Random transaction audits\"}],\"\\n\",[\"$\",\"li\",\"li-1\",{\"children\":\"Video surveillance of operations\"}],\"\\n\",[\"$\",\"li\",\"li-2\",{\"children\":\"Comparing weights to vehicle capacities\"}],\"\\n\",[\"$\",\"li\",\"li-3\",{\"children\":\"Statistical pattern analysis\"}],\"\\n\",[\"$\",\"li\",\"li-4\",{\"children\":\"Whistleblower reports\"}],\"\\n\"]}],\"\\n\",[\"$\",\"p\",\"p-77\",{\"children\":[[\"$\",\"strong\",\"strong-0\",{\"children\":\"Prevention\"}],\":\"]}],\"\\n\",[\"$\",\"ul\",\"ul-58\",{\"children\":[\"\\n\",[\"$\",\"li\",\"li-0\",{\"children\":\"Automated weighing systems\"}],\"\\n\",[\"$\",\"li\",\"li-1\",{\"children\":\"Supervisor oversight\"}],\"\\n\",[\"$\",\"li\",\"li-2\",{\"children\":\"Rotation of operators\"}],\"\\n\",[\"$\",\"li\",\"li-3\",{\"children\":\"Background checks\"}],\"\\n\",[\"$\",\"li\",\"li-4\",{\"children\":\"Strong ethics policies\"}],\"\\n\",[\"$\",\"li\",\"li-5\",{\"children\":\"Anonymous reporting mechanisms\"}],\"\\n\"]}],\"\\n\",[\"$\",\"h2\",\"h2-7\",{\"children\":\"Detection Technologies\"}],\"\\n\",[\"$\",\"h3\",\"h3-9\",{\"children\":\"Electronic Monitoring\"}],\"\\n\",[\"$\",\"p\",\"p-78\",{\"children\":[[\"$\",\"strong\",\"strong-0\",{\"children\":\"Methods\"}],\":\"]}],\"\\n\",[\"$\",\"ul\",\"ul-59\",{\"children\":[\"\\n\",[\"$\",\"li\",\"li-0\",{\"children\":\"Signal integrity monitoring\"}],\"\\n\",[\"$\",\"li\",\"li-1\",{\"children\":\"Voltage and current sensors\"}],\"\\n\",[\"$\",\"li\",\"li-2\",{\"children\":\"Communication line encryption\"}],\"\\n\",[\"$\",\"li\",\"li-3\",{\"children\":\"Anomaly detection algorithms\"}],\"\\n\"]}],\"\\n\",[\"$\",\"p\",\"p-79\",{\"children\":[[\"$\",\"strong\",\"strong-0\",{\"children\":\"Capabilities\"}],\":\"]}],\"\\n\",[\"$\",\"ul\",\"ul-60\",{\"children\":[\"\\n\",[\"$\",\"li\",\"li-0\",{\"children\":\"Real-time fraud detection\"}],\"\\n\",[\"$\",\"li\",\"li-1\",{\"children\":\"Alert generation\"}],\"\\n\",[\"$\",\"li\",\"li-2\",{\"children\":\"Event logging\"}],\"\\n\",[\"$\",\"li\",\"li-3\",{\"children\":\"Remote monitoring\"}],\"\\n\"]}],\"\\n\",[\"$\",\"h3\",\"h3-10\",{\"children\":\"Physical Security\"}],\"\\n\",[\"$\",\"p\",\"p-80\",{\"children\":[[\"$\",\"strong\",\"strong-0\",{\"children\":\"Measures\"}],\":\"]}],\"\\n\",[\"$\",\"ul\",\"ul-61\",{\"children\":[\"\\n\",[\"$\",\"li\",\"li-0\",{\"children\":\"Tamper-evident seals\"}],\"\\n\",[\"$\",\"li\",\"li-1\",{\"children\":\"Locked enclosures with security fasteners\"}],\"\\n\",[\"$\",\"li\",\"li-2\",{\"children\":\"Video surveillance\"}],\"\\n\",[\"$\",\"li\",\"li-3\",{\"children\":\"Access control systems\"}],\"\\n\"]}],\"\\n\",[\"$\",\"p\",\"p-81\",{\"children\":[[\"$\",\"strong\",\"strong-0\",{\"children\":\"Benefits\"}],\":\"]}],\"\\n\",[\"$\",\"ul\",\"ul-62\",{\"children\":[\"\\n\",[\"$\",\"li\",\"li-0\",{\"children\":\"Deters casual tampering\"}],\"\\n\",[\"$\",\"li\",\"li-1\",{\"children\":\"Provides evidence of attempts\"}],\"\\n\",[\"$\",\"li\",\"li-2\",{\"children\":\"Enables investigation\"}],\"\\n\"]}],\"\\n\",[\"$\",\"h3\",\"h3-11\",{\"children\":\"Statistical Analysis\"}],\"\\n\",[\"$\",\"p\",\"p-82\",{\"children\":[[\"$\",\"strong\",\"strong-0\",{\"children\":\"Approach\"}],\":\"]}],\"\\n\",[\"$\",\"ul\",\"ul-63\",{\"children\":[\"\\n\",[\"$\",\"li\",\"li-0\",{\"children\":\"Analyzing patterns in weight data\"}],\"\\n\",[\"$\",\"li\",\"li-1\",{\"children\":\"Identifying unusual trends\"}],\"\\n\",[\"$\",\"li\",\"li-2\",{\"children\":\"Comparing to expected distributions\"}],\"\\n\",[\"$\",\"li\",\"li-3\",{\"children\":\"Detecting systematic bias\"}],\"\\n\"]}],\"\\n\",[\"$\",\"p\",\"p-83\",{\"children\":[[\"$\",\"strong\",\"strong-0\",{\"children\":\"Indicators\"}],\":\"]}],\"\\n\",[\"$\",\"ul\",\"ul-64\",{\"children\":[\"\\n\",[\"$\",\"li\",\"li-0\",{\"children\":\"Weights consistently biased in one direction\"}],\"\\n\",[\"$\",\"li\",\"li-1\",{\"children\":\"Unusual clustering of values\"}],\"\\n\",[\"$\",\"li\",\"li-2\",{\"children\":\"Changes after specific operators' shifts\"}],\"\\n\",[\"$\",\"li\",\"li-3\",{\"children\":\"Discrepancies with inventory levels\"}],\"\\n\"]}],\"\\n\",[\"$\",\"h2\",\"h2-8\",{\"children\":\"Industry Vulnerable Points\"}],\"\\n\",[\"$\",\"h3\",\"h3-12\",{\"children\":\"High-Risk Situations\"}],\"\\n\",[\"$\",\"ol\",\"ol-4\",{\"children\":[\"\\n\",[\"$\",\"li\",\"li-0\",{\"children\":[\"\\n\",[\"$\",\"p\",\"p-0\",{\"children\":[\"$\",\"strong\",\"strong-0\",{\"children\":\"Unattended Facilities\"}]}],\"\\n\",[\"$\",\"ul\",\"ul-0\",{\"children\":[\"\\n\",[\"$\",\"li\",\"li-0\",{\"children\":\"No supervision during weighing\"}],\"\\n\",[\"$\",\"li\",\"li-1\",{\"children\":\"Opportunity for position manipulation\"}],\"\\n\",[\"$\",\"li\",\"li-2\",{\"children\":\"Remote control device use\"}],\"\\n\"]}],\"\\n\"]}],\"\\n\",[\"$\",\"li\",\"li-1\",{\"children\":[\"\\n\",[\"$\",\"p\",\"p-0\",{\"children\":[\"$\",\"strong\",\"strong-0\",{\"children\":\"Minimal Oversight\"}]}],\"\\n\",[\"$\",\"ul\",\"ul-0\",{\"children\":[\"\\n\",[\"$\",\"li\",\"li-0\",{\"children\":\"Inadequate supervision\"}],\"\\n\",[\"$\",\"li\",\"li-1\",{\"children\":\"Lack of cross-checking\"}],\"\\n\",[\"$\",\"li\",\"li-2\",{\"children\":\"Poor operator training\"}],\"\\n\"]}],\"\\n\"]}],\"\\n\",[\"$\",\"li\",\"li-2\",{\"children\":[\"\\n\",[\"$\",\"p\",\"p-0\",{\"children\":[\"$\",\"strong\",\"strong-0\",{\"children\":\"High-Value Commodities\"}]}],\"\\n\",[\"$\",\"ul\",\"ul-0\",{\"children\":[\"\\n\",[\"$\",\"li\",\"li-0\",{\"children\":\"Precious metals\"}],\"\\n\",[\"$\",\"li\",\"li-1\",{\"children\":\"Scrap metal and recyclables\"}],\"\\n\",[\"$\",\"li\",\"li-2\",{\"children\":\"Grain and agricultural products\"}],\"\\n\",[\"$\",\"li\",\"li-3\",{\"children\":\"Waste and recycling materials\"}],\"\\n\"]}],\"\\n\"]}],\"\\n\",[\"$\",\"li\",\"li-3\",{\"children\":[\"\\n\",[\"$\",\"p\",\"p-0\",{\"children\":[\"$\",\"strong\",\"strong-0\",{\"children\":\"Complex Supply Chains\"}]}],\"\\n\",[\"$\",\"ul\",\"ul-0\",{\"children\":[\"\\n\",[\"$\",\"li\",\"li-0\",{\"children\":\"Multiple weighing points\"}],\"\\n\",[\"$\",\"li\",\"li-1\",{\"children\":\"Opportunities for collusion\"}],\"\\n\",[\"$\",\"li\",\"li-2\",{\"children\":\"Difficult to cross-verify\"}],\"\\n\"]}],\"\\n\"]}],\"\\n\"]}],\"\\n\",[\"$\",\"h3\",\"h3-13\",{\"children\":\"Cost of Fraud\"}],\"\\n\",[\"$\",\"p\",\"p-84\",{\"children\":\"Weighing fraud can cost businesses:\"}],\"\\n\",[\"$\",\"ul\",\"ul-65\",{\"children\":[\"\\n\",[\"$\",\"li\",\"li-0\",{\"children\":[[\"$\",\"strong\",\"strong-0\",{\"children\":\"Thousands of dollars monthly\"}],\" for small operations\"]}],\"\\n\",[\"$\",\"li\",\"li-1\",{\"children\":[[\"$\",\"strong\",\"strong-0\",{\"children\":\"Millions annually\"}],\" for large facilities\"]}],\"\\n\",[\"$\",\"li\",\"li-2\",{\"children\":\"Can go undetected for extended periods\"}],\"\\n\",[\"$\",\"li\",\"li-3\",{\"children\":\"Compounds over time\"}],\"\\n\"]}],\"\\n\",[\"$\",\"h2\",\"h2-9\",{\"children\":\"Forensic Investigation\"}],\"\\n\",[\"$\",\"h3\",\"h3-14\",{\"children\":\"When to Investigate\"}],\"\\n\",[\"$\",\"p\",\"p-85\",{\"children\":[[\"$\",\"strong\",\"strong-0\",{\"children\":\"Warning Signs\"}],\":\"]}],\"\\n\",[\"$\",\"ul\",\"ul-66\",{\"children\":[\"\\n\",[\"$\",\"li\",\"li-0\",{\"children\":\"Inventory discrepancies\"}],\"\\n\",[\"$\",\"li\",\"li-1\",{\"children\":\"Customer complaints\"}],\"\\n\",[\"$\",\"li\",\"li-2\",{\"children\":\"Suspicious weight patterns\"}],\"\\n\",[\"$\",\"li\",\"li-3\",{\"children\":\"Equipment behaving unusually\"}],\"\\n\",[\"$\",\"li\",\"li-4\",{\"children\":\"Anonymous tips\"}],\"\\n\"]}],\"\\n\",[\"$\",\"h3\",\"h3-15\",{\"children\":\"Investigation Process\"}],\"\\n\",[\"$\",\"ol\",\"ol-5\",{\"children\":[\"\\n\",[\"$\",\"li\",\"li-0\",{\"children\":[\"\\n\",[\"$\",\"p\",\"p-0\",{\"children\":[\"$\",\"strong\",\"strong-0\",{\"children\":\"Secure the Evidence\"}]}],\"\\n\",[\"$\",\"ul\",\"ul-0\",{\"children\":[\"\\n\",[\"$\",\"li\",\"li-0\",{\"children\":\"Isolate suspected equipment\"}],\"\\n\",[\"$\",\"li\",\"li-1\",{\"children\":\"Preserve current state\"}],\"\\n\",[\"$\",\"li\",\"li-2\",{\"children\":\"Prevent further tampering\"}],\"\\n\",[\"$\",\"li\",\"li-3\",{\"children\":\"Document condition\"}],\"\\n\"]}],\"\\n\"]}],\"\\n\",[\"$\",\"li\",\"li-1\",{\"children\":[\"\\n\",[\"$\",\"p\",\"p-0\",{\"children\":[\"$\",\"strong\",\"strong-0\",{\"children\":\"Physical Inspection\"}]}],\"\\n\",[\"$\",\"ul\",\"ul-0\",{\"children\":[\"\\n\",[\"$\",\"li\",\"li-0\",{\"children\":\"Disassemble equipment systematically\"}],\"\\n\",[\"$\",\"li\",\"li-1\",{\"children\":\"Photograph all components\"}],\"\\n\",[\"$\",\"li\",\"li-2\",{\"children\":\"Look for unauthorized modifications\"}],\"\\n\",[\"$\",\"li\",\"li-3\",{\"children\":\"Check verification seals\"}],\"\\n\"]}],\"\\n\"]}],\"\\n\",[\"$\",\"li\",\"li-2\",{\"children\":[\"\\n\",[\"$\",\"p\",\"p-0\",{\"children\":[\"$\",\"strong\",\"strong-0\",{\"children\":\"Electrical Testing\"}]}],\"\\n\",[\"$\",\"ul\",\"ul-0\",{\"children\":[\"\\n\",[\"$\",\"li\",\"li-0\",{\"children\":\"Measure load cell outputs\"}],\"\\n\",[\"$\",\"li\",\"li-1\",{\"children\":\"Test junction box connections\"}],\"\\n\",[\"$\",\"li\",\"li-2\",{\"children\":\"Verify indicator operation\"}],\"\\n\",[\"$\",\"li\",\"li-3\",{\"children\":\"Check for parasitic devices\"}],\"\\n\"]}],\"\\n\"]}],\"\\n\",[\"$\",\"li\",\"li-3\",{\"children\":[\"\\n\",[\"$\",\"p\",\"p-0\",{\"children\":[\"$\",\"strong\",\"strong-0\",{\"children\":\"Data Analysis\"}]}],\"\\n\",[\"$\",\"ul\",\"ul-0\",{\"children\":[\"\\n\",[\"$\",\"li\",\"li-0\",{\"children\":\"Review transaction history\"}],\"\\n\",[\"$\",\"li\",\"li-1\",{\"children\":\"Analyze weight patterns\"}],\"\\n\",[\"$\",\"li\",\"li-2\",{\"children\":\"Compare to other stations\"}],\"\\n\",[\"$\",\"li\",\"li-3\",{\"children\":\"Identify anomalies\"}],\"\\n\"]}],\"\\n\"]}],\"\\n\",[\"$\",\"li\",\"li-4\",{\"children\":[\"\\n\",[\"$\",\"p\",\"p-0\",{\"children\":[\"$\",\"strong\",\"strong-0\",{\"children\":\"Expert Consultation\"}]}],\"\\n\",[\"$\",\"ul\",\"ul-0\",{\"children\":[\"\\n\",[\"$\",\"li\",\"li-0\",{\"children\":\"Engage qualified technicians\"}],\"\\n\",[\"$\",\"li\",\"li-1\",{\"children\":\"Consult legal metrology authorities\"}],\"\\n\",[\"$\",\"li\",\"li-2\",{\"children\":\"Involve law enforcement if criminal\"}],\"\\n\",[\"$\",\"li\",\"li-3\",{\"children\":\"Seek manufacturer assistance\"}],\"\\n\"]}],\"\\n\"]}],\"\\n\"]}],\"\\n\",[\"$\",\"h2\",\"h2-10\",{\"children\":\"Legal Consequences\"}],\"\\n\",[\"$\",\"h3\",\"h3-16\",{\"children\":\"Regulatory Violations\"}],\"\\n\",[\"$\",\"p\",\"p-86\",{\"children\":\"Under Kenya's Weights and Measures Act and similar regulations worldwide:\"}],\"\\n\",[\"$\",\"ul\",\"ul-67\",{\"children\":[\"\\n\",[\"$\",\"li\",\"li-0\",{\"children\":[\"$\",\"strong\",\"strong-0\",{\"children\":\"Equipment confiscation\"}]}],\"\\n\",[\"$\",\"li\",\"li-1\",{\"children\":[\"$\",\"strong\",\"strong-0\",{\"children\":\"Business closure orders\"}]}],\"\\n\",[\"$\",\"li\",\"li-2\",{\"children\":[\"$\",\"strong\",\"strong-0\",{\"children\":\"Loss of trading licenses\"}]}],\"\\n\",[\"$\",\"li\",\"li-3\",{\"children\":[\"$\",\"strong\",\"strong-0\",{\"children\":\"Fines and penalties\"}]}],\"\\n\"]}],\"\\n\",[\"$\",\"h3\",\"h3-17\",{\"children\":\"Criminal Charges\"}],\"\\n\",[\"$\",\"p\",\"p-87\",{\"children\":\"Deliberate fraud can result in:\"}],\"\\n\",[\"$\",\"ul\",\"ul-68\",{\"children\":[\"\\n\",[\"$\",\"li\",\"li-0\",{\"children\":[\"$\",\"strong\",\"strong-0\",{\"children\":\"Fraud charges\"}]}],\"\\n\",[\"$\",\"li\",\"li-1\",{\"children\":[\"$\",\"strong\",\"strong-0\",{\"children\":\"Theft by deception\"}]}],\"\\n\",[\"$\",\"li\",\"li-2\",{\"children\":[\"$\",\"strong\",\"strong-0\",{\"children\":\"Criminal fines\"}]}],\"\\n\",[\"$\",\"li\",\"li-3\",{\"children\":[\"$\",\"strong\",\"strong-0\",{\"children\":\"Imprisonment\"}]}],\"\\n\",[\"$\",\"li\",\"li-4\",{\"children\":[\"$\",\"strong\",\"strong-0\",{\"children\":\"Restitution to victims\"}]}],\"\\n\"]}],\"\\n\",[\"$\",\"h3\",\"h3-18\",{\"children\":\"Civil Liability\"}],\"\\n\",[\"$\",\"p\",\"p-88\",{\"children\":\"Businesses may face:\"}],\"\\n\",[\"$\",\"ul\",\"ul-69\",{\"children\":[\"\\n\",[\"$\",\"li\",\"li-0\",{\"children\":[\"$\",\"strong\",\"strong-0\",{\"children\":\"Lawsuits from defrauded parties\"}]}],\"\\n\",[\"$\",\"li\",\"li-1\",{\"children\":[\"$\",\"strong\",\"strong-0\",{\"children\":\"Contract violations\"}]}],\"\\n\",[\"$\",\"li\",\"li-2\",{\"children\":[\"$\",\"strong\",\"strong-0\",{\"children\":\"Reputation damage\"}]}],\"\\n\",[\"$\",\"li\",\"li-3\",{\"children\":[\"$\",\"strong\",\"strong-0\",{\"children\":\"Loss of customers\"}]}],\"\\n\"]}],\"\\n\",[\"$\",\"h2\",\"h2-11\",{\"children\":\"Summary\"}],\"\\n\",[\"$\",\"p\",\"p-89\",{\"children\":\"Physical tampering represents a serious threat to commercial weighing integrity. Common methods include:\"}],\"\\n\",[\"$\",\"ul\",\"ul-70\",{\"children\":[\"\\n\",[\"$\",\"li\",\"li-0\",{\"children\":[[\"$\",\"strong\",\"strong-0\",{\"children\":\"Load cell manipulation\"}],\" through shunting, signal interception, or replacement\"]}],\"\\n\",[\"$\",\"li\",\"li-1\",{\"children\":[[\"$\",\"strong\",\"strong-0\",{\"children\":\"Display tampering\"}],\" via remote control devices or software modification\"]}],\"\\n\",[\"$\",\"li\",\"li-2\",{\"children\":[[\"$\",\"strong\",\"strong-0\",{\"children\":\"Mechanical modifications\"}],\" including hidden weights and platform manipulation\"]}],\"\\n\",[\"$\",\"li\",\"li-3\",{\"children\":[[\"$\",\"strong\",\"strong-0\",{\"children\":\"Weighbridge fraud\"}],\" through foundation tampering or operator collusion\"]}],\"\\n\"]}],\"\\n\",[\"$\",\"p\",\"p-90\",{\"children\":[[\"$\",\"strong\",\"strong-0\",{\"children\":\"Protection requires\"}],\":\"]}],\"\\n\",[\"$\",\"ul\",\"ul-71\",{\"children\":[\"\\n\",[\"$\",\"li\",\"li-0\",{\"children\":\"Regular inspections and maintenance\"}],\"\\n\",[\"$\",\"li\",\"li-1\",{\"children\":\"Robust security measures\"}],\"\\n\",[\"$\",\"li\",\"li-2\",{\"children\":\"Operator training and supervision\"}],\"\\n\",[\"$\",\"li\",\"li-3\",{\"children\":\"Detection technologies\"}],\"\\n\",[\"$\",\"li\",\"li-4\",{\"children\":\"Audit and verification procedures\"}],\"\\n\"]}],\"\\n\",[\"$\",\"p\",\"p-91\",{\"children\":[[\"$\",\"strong\",\"strong-0\",{\"children\":\"Understanding these methods enables\"}],\":\"]}],\"\\n\",[\"$\",\"ul\",\"ul-72\",{\"children\":[\"\\n\",[\"$\",\"li\",\"li-0\",{\"children\":\"Effective counter-measure design\"}],\"\\n\",[\"$\",\"li\",\"li-1\",{\"children\":\"Risk assessment\"}],\"\\n\",[\"$\",\"li\",\"li-2\",{\"children\":\"Security system specifications\"}],\"\\n\",[\"$\",\"li\",\"li-3\",{\"children\":\"Investigation of suspected fraud\"}],\"\\n\"]}],\"\\n\",[\"$\",\"hr\",\"hr-0\",{}],\"\\n\",[\"$\",\"h2\",\"h2-12\",{\"children\":\"Key Takeaways\"}],\"\\n\",[\"$\",\"ul\",\"ul-73\",{\"children\":[\"\\n\",[\"$\",\"li\",\"li-0\",{\"children\":[[\"$\",\"strong\",\"strong-0\",{\"children\":\"Calibration security\"}],\" is critical: The \\\"box\\\" you're referring to is the \",[\"$\",\"strong\",\"strong-1\",{\"children\":\"junction box\"}],\" or \",[\"$\",\"strong\",\"strong-2\",{\"children\":\"indicator enclosure\"}],\", sealed with tamper-evident seals\"]}],\"\\n\",[\"$\",\"li\",\"li-1\",{\"children\":[[\"$\",\"strong\",\"strong-0\",{\"children\":\"Calibration switch/jumper\"}],\" on circuit board controls access to calibration mode - breaking seal to access it is tampering\"]}],\"\\n\",[\"$\",\"li\",\"li-2\",{\"children\":[[\"$\",\"strong\",\"strong-0\",{\"children\":\"Verification seals\"}],\" must be broken for any maintenance, requiring complete re-verification by authorities\"]}],\"\\n\",[\"$\",\"li\",\"li-3\",{\"children\":[[\"$\",\"strong\",\"strong-0\",{\"children\":\"Movement detection\"}],\" via accelerometers and tilt sensors detects relocation of portable scales\"]}],\"\\n\",[\"$\",\"li\",\"li-4\",{\"children\":[[\"$\",\"strong\",\"strong-0\",{\"children\":\"Power cycling\"}],\" is logged as potential tampering indicator (may indicate movement or configuration changes)\"]}],\"\\n\",[\"$\",\"li\",\"li-5\",{\"children\":[[\"$\",\"strong\",\"strong-0\",{\"children\":\"Audit trails\"}],\" record all calibration access, parameter changes, and power events in modern scales\"]}],\"\\n\",[\"$\",\"li\",\"li-6\",{\"children\":\"Tampering methods range from simple mechanical tricks to sophisticated electronic manipulation\"}],\"\\n\",[\"$\",\"li\",\"li-7\",{\"children\":\"Remote control devices represent a significant modern threat\"}],\"\\n\",[\"$\",\"li\",\"li-8\",{\"children\":\"Load cell tampering can go undetected for months, costing thousands\"}],\"\\n\",[\"$\",\"li\",\"li-9\",{\"children\":\"Weighbridge fraud often involves multiple attack vectors\"}],\"\\n\",[\"$\",\"li\",\"li-10\",{\"children\":\"Operator collusion is difficult to detect without proper controls\"}],\"\\n\",[\"$\",\"li\",\"li-11\",{\"children\":\"Detection requires combination of physical security, electronic monitoring, and data analysis\"}],\"\\n\",[\"$\",\"li\",\"li-12\",{\"children\":[[\"$\",\"strong\",\"strong-0\",{\"children\":\"Legal definition\"}],\": In Kenya, tampering includes breaking seals, using magnets, adding hidden weights, or any unauthorized modification\"]}],\"\\n\",[\"$\",\"li\",\"li-13\",{\"children\":\"Prevention is more cost-effective than remediation\"}],\"\\n\",[\"$\",\"li\",\"li-14\",{\"children\":\"Legal consequences include regulatory penalties and criminal charges\"}],\"\\n\",[\"$\",\"li\",\"li-15\",{\"children\":\"Regular inspections and audits essential for fraud prevention\"}],\"\\n\"]}],\"\\n\",[\"$\",\"p\",\"p-92\",{\"children\":[[\"$\",\"strong\",\"strong-0\",{\"children\":\"Educational Purpose\"}],\": This information is provided to enable development of security systems and fraud prevention measures. Implementing any of these methods constitutes fraud and is illegal.\"]}]]}],[\"$\",\"div\",null,{\"className\":\"mt-12 pt-8 border-t border-slate-200 dark:border-slate-800\",\"children\":[\"$\",\"div\",null,{\"className\":\"flex items-center justify-between\",\"children\":[[\"$\",\"$L4\",null,{\"href\":\"/courses/weighing-fundamentals/03-regulations/01-kenya-weights-measures\",\"className\":\"flex items-center gap-2 px-4 py-2 bg-slate-100 dark:bg-slate-800 rounded-md hover:bg-slate-200 dark:hover:bg-slate-700 no-underline text-slate-900 dark:text-white\",\"children\":[[\"$\",\"svg\",null,{\"className\":\"w-4 h-4\",\"fill\":\"none\",\"viewBox\":\"0 0 24 24\",\"strokeWidth\":\"1.5\",\"stroke\":\"currentColor\",\"children\":[\"$\",\"path\",null,{\"strokeLinecap\":\"round\",\"strokeLinejoin\":\"round\",\"d\":\"M15.75 19.5L8.25 12l7.5-7.5\"}]}],[\"$\",\"div\",null,{\"className\":\"text-left\",\"children\":[[\"$\",\"div\",null,{\"className\":\"text-xs text-slate-600 dark:text-slate-400\",\"children\":\"Previous\"}],[\"$\",\"div\",null,{\"className\":\"text-sm font-semibold\",\"children\":\"Kenya Weights Measures\"}]]}]]}],[\"$\",\"$L4\",null,{\"href\":\"/courses/weighing-fundamentals\",\"className\":\"flex items-center gap-2 px-4 py-2 bg-emerald-600 text-white rounded-md hover:bg-emerald-700 no-underline ml-auto\",\"children\":[\"$\",\"div\",null,{\"className\":\"text-sm font-semibold\",\"children\":\"Course Complete! 🎉\"}]}]]}]}]]}]]}],null],null],null]},[null,[\"$\",\"$L5\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\",\"courses\",\"children\",\"weighing-fundamentals\",\"children\",\"$6\",\"children\",\"$7\",\"children\"],\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L8\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":\"$undefined\",\"notFoundStyles\":\"$undefined\"}]],null]},[null,[\"$\",\"$L5\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\",\"courses\",\"children\",\"weighing-fundamentals\",\"children\",\"$6\",\"children\"],\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L8\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":\"$undefined\",\"notFoundStyles\":\"$undefined\"}]],null]},[null,[\"$\",\"$L5\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\",\"courses\",\"children\",\"weighing-fundamentals\",\"children\"],\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L8\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":\"$undefined\",\"notFoundStyles\":\"$undefined\"}]],null]},[null,[\"$\",\"$L5\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\",\"courses\",\"children\"],\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L8\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":\"$undefined\",\"notFoundStyles\":\"$undefined\"}]],null]},[[[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/css/58e13d627443c1d2.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\"}]],[\"$\",\"html\",null,{\"lang\":\"en\",\"children\":[\"$\",\"body\",null,{\"className\":\"antialiased flex flex-col min-h-screen\",\"children\":[[\"$\",\"header\",null,{\"className\":\"sticky top-0 z-50 w-full border-b border-slate-200 dark:border-slate-800 bg-white/95 dark:bg-slate-900/95 backdrop-blur supports-[backdrop-filter]:bg-white/60\",\"children\":[\"$\",\"nav\",null,{\"className\":\"mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8\",\"aria-label\":\"Global\",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex lg:flex-1\",\"children\":[\"$\",\"$L4\",null,{\"href\":\"/\",\"className\":\"-m-1.5 p-1.5\",\"children\":[\"$\",\"span\",null,{\"className\":\"text-2xl font-bold text-primary-600\",\"children\":\"Weighing Systems\"}]}]}],[\"$\",\"$L9\",null,{\"navigation\":[{\"name\":\"Courses\",\"href\":\"/courses\"},{\"name\":\"Projects\",\"href\":\"/projects\"},{\"name\":\"Tools\",\"href\":\"/tools\"},{\"name\":\"Downloads\",\"href\":\"/downloads\"},{\"name\":\"Blog\",\"href\":\"/blog\"},{\"name\":\"Docs\",\"href\":\"/documentation\"}]}],[\"$\",\"div\",null,{\"className\":\"hidden lg:flex lg:gap-x-12\",\"children\":[[\"$\",\"$L4\",\"Courses\",{\"href\":\"/courses\",\"className\":\"text-sm font-semibold leading-6 text-slate-900 dark:text-slate-100 hover:text-primary-600 dark:hover:text-primary-500 no-underline\",\"children\":\"Courses\"}],[\"$\",\"$L4\",\"Projects\",{\"href\":\"/projects\",\"className\":\"text-sm font-semibold leading-6 text-slate-900 dark:text-slate-100 hover:text-primary-600 dark:hover:text-primary-500 no-underline\",\"children\":\"Projects\"}],[\"$\",\"$L4\",\"Tools\",{\"href\":\"/tools\",\"className\":\"text-sm font-semibold leading-6 text-slate-900 dark:text-slate-100 hover:text-primary-600 dark:hover:text-primary-500 no-underline\",\"children\":\"Tools\"}],[\"$\",\"$L4\",\"Downloads\",{\"href\":\"/downloads\",\"className\":\"text-sm font-semibold leading-6 text-slate-900 dark:text-slate-100 hover:text-primary-600 dark:hover:text-primary-500 no-underline\",\"children\":\"Downloads\"}],[\"$\",\"$L4\",\"Blog\",{\"href\":\"/blog\",\"className\":\"text-sm font-semibold leading-6 text-slate-900 dark:text-slate-100 hover:text-primary-600 dark:hover:text-primary-500 no-underline\",\"children\":\"Blog\"}],[\"$\",\"$L4\",\"Docs\",{\"href\":\"/documentation\",\"className\":\"text-sm font-semibold leading-6 text-slate-900 dark:text-slate-100 hover:text-primary-600 dark:hover:text-primary-500 no-underline\",\"children\":\"Docs\"}]]}]]}]}],[\"$\",\"main\",null,{\"className\":\"flex-grow\",\"children\":[\"$\",\"$L5\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\"],\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L8\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":[[\"$\",\"title\",null,{\"children\":\"404: This page could not be found.\"}],[\"$\",\"div\",null,{\"style\":{\"fontFamily\":\"system-ui,\\\"Segoe UI\\\",Roboto,Helvetica,Arial,sans-serif,\\\"Apple Color Emoji\\\",\\\"Segoe UI Emoji\\\"\",\"height\":\"100vh\",\"textAlign\":\"center\",\"display\":\"flex\",\"flexDirection\":\"column\",\"alignItems\":\"center\",\"justifyContent\":\"center\"},\"children\":[\"$\",\"div\",null,{\"children\":[[\"$\",\"style\",null,{\"dangerouslySetInnerHTML\":{\"__html\":\"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}\"}}],[\"$\",\"h1\",null,{\"className\":\"next-error-h1\",\"style\":{\"display\":\"inline-block\",\"margin\":\"0 20px 0 0\",\"padding\":\"0 23px 0 0\",\"fontSize\":24,\"fontWeight\":500,\"verticalAlign\":\"top\",\"lineHeight\":\"49px\"},\"children\":\"404\"}],[\"$\",\"div\",null,{\"style\":{\"display\":\"inline-block\"},\"children\":[\"$\",\"h2\",null,{\"style\":{\"fontSize\":14,\"fontWeight\":400,\"lineHeight\":\"49px\",\"margin\":0},\"children\":\"This page could not be found.\"}]}]]}]}]],\"notFoundStyles\":[]}]}],[\"$\",\"footer\",null,{\"className\":\"border-t border-slate-200 dark:border-slate-800 bg-slate-50 dark:bg-slate-900/50\",\"children\":[\"$\",\"div\",null,{\"className\":\"mx-auto max-w-7xl px-6 py-12 lg:px-8\",\"children\":[[\"$\",\"div\",null,{\"className\":\"grid grid-cols-1 md:grid-cols-4 gap-8\",\"children\":[[\"$\",\"div\",null,{\"className\":\"col-span-1\",\"children\":[[\"$\",\"h3\",null,{\"className\":\"text-sm font-semibold text-slate-900 dark:text-slate-100 mb-4\",\"children\":\"Weighing Systems\"}],[\"$\",\"p\",null,{\"className\":\"text-sm text-slate-600 dark:text-slate-400\",\"children\":\"Comprehensive knowledge base for weighing technology, regulations, and measurement systems.\"}]]}],[\"$\",\"div\",null,{\"children\":[[\"$\",\"h3\",null,{\"className\":\"text-sm font-semibold text-slate-900 dark:text-slate-100 mb-4\",\"children\":\"Courses\"}],[\"$\",\"ul\",null,{\"className\":\"space-y-2\",\"children\":[[\"$\",\"li\",\"Weighing Fundamentals\",{\"children\":[\"$\",\"$L4\",null,{\"href\":\"/courses/weighing-fundamentals\",\"className\":\"text-sm text-slate-600 dark:text-slate-400 hover:text-primary-600 dark:hover:text-primary-500 no-underline\",\"children\":\"Weighing Fundamentals\"}]}],[\"$\",\"li\",\"All Courses\",{\"children\":[\"$\",\"$L4\",null,{\"href\":\"/courses\",\"className\":\"text-sm text-slate-600 dark:text-slate-400 hover:text-primary-600 dark:hover:text-primary-500 no-underline\",\"children\":\"All Courses\"}]}]]}]]}],[\"$\",\"div\",null,{\"children\":[[\"$\",\"h3\",null,{\"className\":\"text-sm font-semibold text-slate-900 dark:text-slate-100 mb-4\",\"children\":\"Resources\"}],[\"$\",\"ul\",null,{\"className\":\"space-y-2\",\"children\":[[\"$\",\"li\",\"Tools \u0026 Calculators\",{\"children\":[\"$\",\"$L4\",null,{\"href\":\"/tools\",\"className\":\"text-sm text-slate-600 dark:text-slate-400 hover:text-primary-600 dark:hover:text-primary-500 no-underline\",\"children\":\"Tools \u0026 Calculators\"}]}],[\"$\",\"li\",\"Downloads\",{\"children\":[\"$\",\"$L4\",null,{\"href\":\"/downloads\",\"className\":\"text-sm text-slate-600 dark:text-slate-400 hover:text-primary-600 dark:hover:text-primary-500 no-underline\",\"children\":\"Downloads\"}]}],[\"$\",\"li\",\"Documentation\",{\"children\":[\"$\",\"$L4\",null,{\"href\":\"/documentation\",\"className\":\"text-sm text-slate-600 dark:text-slate-400 hover:text-primary-600 dark:hover:text-primary-500 no-underline\",\"children\":\"Documentation\"}]}]]}]]}],[\"$\",\"div\",null,{\"children\":[[\"$\",\"h3\",null,{\"className\":\"text-sm font-semibold text-slate-900 dark:text-slate-100 mb-4\",\"children\":\"About\"}],[\"$\",\"ul\",null,{\"className\":\"space-y-2\",\"children\":[[\"$\",\"li\",\"About This Site\",{\"children\":[\"$\",\"$L4\",null,{\"href\":\"/about\",\"className\":\"text-sm text-slate-600 dark:text-slate-400 hover:text-primary-600 dark:hover:text-primary-500 no-underline\",\"children\":\"About This Site\"}]}],[\"$\",\"li\",\"License\",{\"children\":[\"$\",\"$L4\",null,{\"href\":\"/about/license\",\"className\":\"text-sm text-slate-600 dark:text-slate-400 hover:text-primary-600 dark:hover:text-primary-500 no-underline\",\"children\":\"License\"}]}]]}]]}]]}],[\"$\",\"div\",null,{\"className\":\"mt-8 border-t border-slate-200 dark:border-slate-800 pt-8 flex flex-col md:flex-row justify-between items-center\",\"children\":[[\"$\",\"p\",null,{\"className\":\"text-sm text-slate-600 dark:text-slate-400\",\"children\":[\"© \",2024,\" Weighing Systems Knowledge Base\"]}],[\"$\",\"div\",null,{\"className\":\"flex space-x-6 mt-4 md:mt-0\",\"children\":[\"$\",\"a\",null,{\"href\":\"https://github.com/weightsandmeasures\",\"target\":\"_blank\",\"rel\":\"noopener noreferrer\",\"className\":\"text-slate-600 dark:text-slate-400 hover:text-primary-600 dark:hover:text-primary-500 no-underline\",\"aria-label\":\"GitHub\",\"children\":[[\"$\",\"svg\",null,{\"className\":\"h-5 w-5\",\"fill\":\"currentColor\",\"viewBox\":\"0 0 24 24\",\"children\":[\"$\",\"path\",null,{\"fillRule\":\"evenodd\",\"d\":\"M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z\",\"clipRule\":\"evenodd\"}]}],[\"$\",\"span\",null,{\"className\":\"sr-only\",\"children\":\"GitHub\"}]]}]}]]}]]}]}]]}]}]],null],null],\"couldBeIntercepted\":false,\"initialHead\":[null,\"$La\"],\"globalErrorComponent\":\"$b\",\"missingSlots\":\"$Wc\"}]\n"])</script><script>self.__next_f.push([1,"a:[[\"$\",\"meta\",\"0\",{\"name\":\"viewport\",\"content\":\"width=device-width, initial-scale=1\"}],[\"$\",\"meta\",\"1\",{\"charSet\":\"utf-8\"}],[\"$\",\"title\",\"2\",{\"children\":\"Weighing Systems Knowledge Base\"}],[\"$\",\"meta\",\"3\",{\"name\":\"description\",\"content\":\"Comprehensive resource on weighing technology, regulations, and measurement systems\"}],[\"$\",\"link\",\"4\",{\"rel\":\"icon\",\"href\":\"/favicon.ico\",\"type\":\"image/x-icon\",\"sizes\":\"16x16\"}]]\n3:null\n"])</script></body></html>
